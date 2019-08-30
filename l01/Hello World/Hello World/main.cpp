@@ -10,7 +10,7 @@
 #include <iostream>
 
 int main() {
-    using namespace std;
+    using :: std::cout;
     cout <<  "Hello, World!\n";
     return 0;
 }
