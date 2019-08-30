@@ -12,8 +12,12 @@
 
 #include <iostream>
 
-int main() {
-    using namespace std;
+int main(int argc, char** argv) {
+    using :: std::cout;
+    using :: std::endl;
+    using :: std::cin;
+    using :: std::string;
+
     cout << "Hello! What operation would you like to perform?\n";
     //Initilizing the the tring that represents the operation
     string operation;

@@ -9,9 +9,10 @@
 
 #include <iostream>
 
-int main() {
+int main(int argc, char** argv) {
     using :: std::cout;
-    cout <<  "Hello, World!\n";
+    using :: std::endl;
+    cout <<  "Hello, World!\n"<< std::endl;
     return 0;
 }
 
