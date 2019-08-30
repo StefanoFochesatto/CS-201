@@ -40,7 +40,7 @@ int main() {
     
     if (operation == "/")
     {
-        cout <<"Dividing "<<number1<<" over "<<number2<<"."<<" Result:"<<number1/number2<<".\n"  ;
+        cout <<"Dividing "<<number1<<" over  "<<number2<<"."<<" Result:"<<number1/number2<<".\n"  ;
         
     }
     return 0;
