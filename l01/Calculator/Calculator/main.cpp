@@ -1,6 +1,6 @@
 ////
 //  main.cpp
-//  Arithmatic
+//  Calculator
 //
 //  Created by Stefano Fochesatto on 8/27/19.
 //  Copyright © 2019 Stefano Fochesatto. All rights reserved.
@@ -19,7 +19,7 @@ int main(int argc, char** argv) {
     using :: std::string;
 
     cout << "Hello! What operation would you like to perform?\n";
-    //Initilizing the the tring that represents the operation
+    //Initilizing the the string that represents the operation
     string operation;
     cin >> operation;
     cout << "Enter two integers to operate?\n";
