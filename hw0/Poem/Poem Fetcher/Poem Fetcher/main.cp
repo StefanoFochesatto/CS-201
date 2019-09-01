@@ -12,18 +12,17 @@
 
 using namespace std;
 int main(int argc, const char * argv[]) {
-
-    ifstream Infile;
-    Infile.open("/Users/stefanofochesatto/Documents/Documents/cs201/hw0/Poem/Poem Fetcher/Poem Fetcher/beowulf.txt");
+    string x;
+    ifstream file;
+    file.open("beowulf.txt");
  
-    if (!Infile) {
+    if (!file) {
         cout << "Unable to open file";
         exit(1); // terminate with error
     }
     
-    string x;
-    while (getline(Infile,x)) {
+    while (getline(file,x)) {
         cout << x << endl ;
     }
-    Infile.close();
+    file.close();
 }

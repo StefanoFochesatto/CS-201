@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7084F1D1231B99B100420FE6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7084F1D0231B99B100420FE6 /* main.cpp */; };
+		7084F1E6231BA0BB00420FE6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7084F1E5231BA0BB00420FE6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7084F1CB231B99B100420FE6 /* CopyFiles */ = {
+		7084F1E0231BA0BA00420FE6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7084F1CD231B99B100420FE6 /* Poem Fetcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Poem Fetcher"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7084F1D0231B99B100420FE6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		7084F1D7231B99D500420FE6 /* beowulf.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = beowulf.txt; sourceTree = "<group>"; };
+		7084F1E2231BA0BB00420FE6 /* Nim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nim; sourceTree = BUILT_PRODUCTS_DIR; };
+		7084F1E5231BA0BB00420FE6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7084F1CA231B99B100420FE6 /* Frameworks */ = {
+		7084F1DF231BA0BA00420FE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,95 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7084F1C4231B99B100420FE6 = {
+		7084F1D9231BA0BA00420FE6 = {
 			isa = PBXGroup;
 			children = (
-				7084F1CF231B99B100420FE6 /* Poem Fetcher */,
-				7084F1CE231B99B100420FE6 /* Products */,
+				7084F1E4231BA0BB00420FE6 /* Nim */,
+				7084F1E3231BA0BB00420FE6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7084F1CE231B99B100420FE6 /* Products */ = {
+		7084F1E3231BA0BB00420FE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7084F1CD231B99B100420FE6 /* Poem Fetcher */,
+				7084F1E2231BA0BB00420FE6 /* Nim */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7084F1CF231B99B100420FE6 /* Poem Fetcher */ = {
+		7084F1E4231BA0BB00420FE6 /* Nim */ = {
 			isa = PBXGroup;
 			children = (
-				7084F1D7231B99D500420FE6 /* beowulf.txt */,
-				7084F1D0231B99B100420FE6 /* main.cpp */,
+				7084F1E5231BA0BB00420FE6 /* main.cpp */,
 			);
-			path = "Poem Fetcher";
+			path = Nim;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7084F1CC231B99B100420FE6 /* Poem Fetcher */ = {
+		7084F1E1231BA0BA00420FE6 /* Nim */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7084F1D4231B99B100420FE6 /* Build configuration list for PBXNativeTarget "Poem Fetcher" */;
+			buildConfigurationList = 7084F1E9231BA0BB00420FE6 /* Build configuration list for PBXNativeTarget "Nim" */;
 			buildPhases = (
-				7084F1C9231B99B100420FE6 /* Sources */,
-				7084F1CA231B99B100420FE6 /* Frameworks */,
-				7084F1CB231B99B100420FE6 /* CopyFiles */,
+				7084F1DE231BA0BA00420FE6 /* Sources */,
+				7084F1DF231BA0BA00420FE6 /* Frameworks */,
+				7084F1E0231BA0BA00420FE6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Poem Fetcher";
-			productName = "Poem Fetcher";
-			productReference = 7084F1CD231B99B100420FE6 /* Poem Fetcher */;
+			name = Nim;
+			productName = Nim;
+			productReference = 7084F1E2231BA0BB00420FE6 /* Nim */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7084F1C5231B99B100420FE6 /* Project object */ = {
+		7084F1DA231BA0BA00420FE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Stefano Fochesatto";
 				TargetAttributes = {
-					7084F1CC231B99B100420FE6 = {
+					7084F1E1231BA0BA00420FE6 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 7084F1C8231B99B100420FE6 /* Build configuration list for PBXProject "Poem Fetcher" */;
+			buildConfigurationList = 7084F1DD231BA0BA00420FE6 /* Build configuration list for PBXProject "Nim" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7084F1C4231B99B100420FE6;
-			productRefGroup = 7084F1CE231B99B100420FE6 /* Products */;
+			mainGroup = 7084F1D9231BA0BA00420FE6;
+			productRefGroup = 7084F1E3231BA0BB00420FE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7084F1CC231B99B100420FE6 /* Poem Fetcher */,
+				7084F1E1231BA0BA00420FE6 /* Nim */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7084F1C9231B99B100420FE6 /* Sources */ = {
+		7084F1DE231BA0BA00420FE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7084F1D1231B99B100420FE6 /* main.cpp in Sources */,
+				7084F1E6231BA0BB00420FE6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7084F1D2231B99B100420FE6 /* Debug */ = {
+		7084F1E7231BA0BB00420FE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		7084F1D3231B99B100420FE6 /* Release */ = {
+		7084F1E8231BA0BB00420FE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +236,7 @@
 			};
 			name = Release;
 		};
-		7084F1D5231B99B100420FE6 /* Debug */ = {
+		7084F1EA231BA0BB00420FE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -247,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		7084F1D6231B99B100420FE6 /* Release */ = {
+		7084F1EB231BA0BB00420FE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,25 +257,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7084F1C8231B99B100420FE6 /* Build configuration list for PBXProject "Poem Fetcher" */ = {
+		7084F1DD231BA0BA00420FE6 /* Build configuration list for PBXProject "Nim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7084F1D2231B99B100420FE6 /* Debug */,
-				7084F1D3231B99B100420FE6 /* Release */,
+				7084F1E7231BA0BB00420FE6 /* Debug */,
+				7084F1E8231BA0BB00420FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7084F1D4231B99B100420FE6 /* Build configuration list for PBXNativeTarget "Poem Fetcher" */ = {
+		7084F1E9231BA0BB00420FE6 /* Build configuration list for PBXNativeTarget "Nim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7084F1D5231B99B100420FE6 /* Debug */,
-				7084F1D6231B99B100420FE6 /* Release */,
+				7084F1EA231BA0BB00420FE6 /* Debug */,
+				7084F1EB231BA0BB00420FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7084F1C5231B99B100420FE6 /* Project object */;
+	rootObject = 7084F1DA231BA0BA00420FE6 /* Project object */;
 }
