@@ -9,7 +9,21 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "How big do you want your diamond\n";
+    int lines_in_diamond;
+    std::cin >>lines_in_diamond;
+    for (int i=1; i<= lines_in_diamond; i++)
+     {
+         
+         
+         
+         
+         
+     }
+    
+    
+    
+    
+    
     return 0;
 }
