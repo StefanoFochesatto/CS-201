@@ -1,8 +1,8 @@
 //
 //  main.cpp
 //  Diamond
-//
-//  Created by Stefano Fochesatto on 9/6/19.
+//this program print a diamond using hashtags
+//  Created by Stefano Fochesatto on 9/6/19 for cs201.
 //  Copyright © 2019 Stefano Fochesatto. All rights reserved.
 //
 

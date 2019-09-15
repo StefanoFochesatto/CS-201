@@ -1,8 +1,9 @@
 //
 //  main.cpp
 //  Greatest Integer
+// This program finds the largest int in a list of userinputted ints.
 //
-//  Created by Stefano Fochesatto on 9/14/19.
+//  Created by Stefano Fochesatto on 9/14/19 for cs201.
 //  Copyright © 2019 Stefano Fochesatto. All rights reserved.
 //
 

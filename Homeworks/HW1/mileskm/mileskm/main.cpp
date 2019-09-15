@@ -2,7 +2,8 @@
 //  main.cpp
 //  mileskm
 //
-//  Created by Stefano Fochesatto on 9/14/19.
+// This program converts miles to kilometers.
+//  Created by Stefano Fochesatto on 9/14/19 for cs201.
 //  Copyright © 2019 Stefano Fochesatto. All rights reserved.
 //
 
