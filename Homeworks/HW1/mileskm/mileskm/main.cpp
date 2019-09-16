@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     std::cout << "Please enter how many miles?\n";
     float miles;
     std::cin >> miles;
-    std::cout << miles<< "miles in kilometers is " << miles*1.609<< std::endl;
+    std::cout << miles<< " miles in kilometers is " << miles*1.609<< std::endl;
     
     return 0;
 }

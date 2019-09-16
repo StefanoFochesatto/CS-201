@@ -1,7 +1,7 @@
 //
 //  main.cpp
 //  Diamond
-//this program print a diamond using hashtags
+//  This program prints a diamond using hashtags
 //  Created by Stefano Fochesatto on 9/6/19 for cs201.
 //  Copyright © 2019 Stefano Fochesatto. All rights reserved.
 //
@@ -9,12 +9,13 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    std::cout << "How big do you want your diamond\n";
+    std::cout << "How big do you want your diamond?: ";
     int lines_in_diamond;
   
     std::cin >>lines_in_diamond;
     int space = lines_in_diamond-1;
-   
+    
+    
     
     for (int k=1; k<=lines_in_diamond; k++)//Top-half Diamond Parent Loop
     {
