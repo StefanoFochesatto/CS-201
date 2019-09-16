@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+#include "string_length.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout<<"Please input a string:"<< std::endl;
+    std::string a;
+    std::cin >> a;
+    printStringLength(a);
+    
+    
     return 0;
 }
