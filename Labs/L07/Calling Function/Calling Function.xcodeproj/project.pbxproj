@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70BAF2CD2332A33800079654 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70BAF2CC2332A33800079654 /* main.cpp */; };
+		70BAF2D82332A53A00079654 /* intio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70BAF2D72332A53A00079654 /* intio.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		70BAF2C92332A33800079654 /* Calling Function */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Calling Function"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BAF2CC2332A33800079654 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		70BAF2D72332A53A00079654 /* intio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = intio.cpp; sourceTree = "<group>"; };
+		70BAF2D92332A57C00079654 /* intio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intio.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		70BAF2CB2332A33800079654 /* Calling Function */ = {
 			isa = PBXGroup;
 			children = (
+				70BAF2D92332A57C00079654 /* intio.hpp */,
 				70BAF2CC2332A33800079654 /* main.cpp */,
+				70BAF2D72332A53A00079654 /* intio.cpp */,
 			);
 			path = "Calling Function";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70BAF2CD2332A33800079654 /* main.cpp in Sources */,
+				70BAF2D82332A53A00079654 /* intio.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
