@@ -4,7 +4,7 @@
 //
 //  Created by Stefano Fochesatto on 9/20/19.
 //  Copyright © 2019 Stefano Fochesatto. All rights reserved.
-//
+// This program creates a list of names size 10, searches, prints, and sorts
 
 #include <iostream>
 #include <vector>
