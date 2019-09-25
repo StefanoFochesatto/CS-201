@@ -7,3 +7,7 @@
 //
 
 #include "isADivB.hpp"
+bool isADivB(int i, int b){
+    
+    return ((i % b == 0));
+}

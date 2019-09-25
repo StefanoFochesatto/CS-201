@@ -7,3 +7,7 @@
 //
 
 #include "isDiv3.hpp"
+bool isDiv3(int n){
+    
+    return ((n % 3 == 0));
+}

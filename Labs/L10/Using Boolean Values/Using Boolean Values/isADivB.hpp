@@ -10,5 +10,5 @@
 #define isADivB_hpp
 
 #include <stdio.h>
-
+bool isADivB(int i, int b);
 #endif /* isADivB_hpp */

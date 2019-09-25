@@ -10,5 +10,6 @@
 #define isDiv3_hpp
 
 #include <stdio.h>
+bool isDiv3(int n);
 
 #endif /* isDiv3_hpp */
