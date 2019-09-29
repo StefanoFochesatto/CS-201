@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void quadratic(double a, double b, double c);
+
 #endif /* quadratic_hpp */
