@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70FF595F2340258E0071AEA6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FF595E2340258E0071AEA6 /* main.cpp */; };
+		70FF5967234025D10071AEA6 /* boxer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FF5965234025D10071AEA6 /* boxer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		70FF595B2340258E0071AEA6 /* boxer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = boxer; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FF595E2340258E0071AEA6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		70FF5965234025D10071AEA6 /* boxer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = boxer.cpp; sourceTree = "<group>"; };
+		70FF5966234025D10071AEA6 /* boxer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = boxer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				70FF595E2340258E0071AEA6 /* main.cpp */,
+				70FF5965234025D10071AEA6 /* boxer.cpp */,
+				70FF5966234025D10071AEA6 /* boxer.hpp */,
 			);
 			path = boxer;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FF5967234025D10071AEA6 /* boxer.cpp in Sources */,
 				70FF595F2340258E0071AEA6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

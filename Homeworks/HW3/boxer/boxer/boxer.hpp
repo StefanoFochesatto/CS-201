@@ -10,5 +10,10 @@
 #define boxer_hpp
 
 #include <stdio.h>
+#include <string>
+#include <iostream>
+
+void boxer(std::string user_input, int border);
+
 
 #endif /* boxer_hpp */
