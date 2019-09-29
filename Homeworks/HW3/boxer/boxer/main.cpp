@@ -38,7 +38,7 @@ int main(int argc, const char * argv[]) {
     std::cin >> border;
     
         if (border<=0){
-            std::cout << "Please enter a positive width for your border: ";
+            std::cout << "Please enter a positive width for your border: \n ";
             std::cin >> border;
         }
     boxer(user_string,border);
