@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70FF59752340440B0071AEA6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FF59742340440B0071AEA6 /* main.cpp */; };
+		70FF597D234044240071AEA6 /* collatz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FF597B234044240071AEA6 /* collatz.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		70FF59712340440B0071AEA6 /* collatz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = collatz; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FF59742340440B0071AEA6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		70FF597B234044240071AEA6 /* collatz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = collatz.cpp; sourceTree = "<group>"; };
+		70FF597C234044240071AEA6 /* collatz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = collatz.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				70FF59742340440B0071AEA6 /* main.cpp */,
+				70FF597B234044240071AEA6 /* collatz.cpp */,
+				70FF597C234044240071AEA6 /* collatz.hpp */,
 			);
 			path = collatz;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70FF59752340440B0071AEA6 /* main.cpp in Sources */,
+				70FF597D234044240071AEA6 /* collatz.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

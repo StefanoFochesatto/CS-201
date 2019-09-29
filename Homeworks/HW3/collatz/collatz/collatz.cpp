@@ -7,3 +7,14 @@
 //
 
 #include "collatz.hpp"
+
+int collatz(int collatz_current){
+    
+    if (!(collatz_current%2)){
+        return collatz_current/2;
+    }
+    
+    else {
+        return 3*(collatz_current)+1;
+    }
+}

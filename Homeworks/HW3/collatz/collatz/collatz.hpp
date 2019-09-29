@@ -11,4 +11,5 @@
 
 #include <stdio.h>
 
+int collatz(int collatz_current);
 #endif /* collatz_hpp */
