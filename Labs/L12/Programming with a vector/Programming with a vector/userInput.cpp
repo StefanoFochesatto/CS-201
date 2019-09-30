@@ -7,3 +7,36 @@
 //
 
 #include "userInput.hpp"
+#include <iostream>
+#include <string>
+#include <vector>
+
+
+
+
+
+void getUserStrings(std::vector<std::string> & words){
+    
+    
+    
+    while (true){
+        std::string current_word;
+        std::getline(std::cin,current_word);
+        
+        if (current_word == "end"){
+            break;
+        }
+        words.push_back(current_word);
+    }
+    
+}
+
+
+
+bool hasChar(const std::string & str, const char & c){
+    
+    
+    
+    
+    return false;
+}
