@@ -10,5 +10,9 @@
 #define substring_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include <string>
+
+void subtring(std::string User_Input);
 
 #endif /* substring_hpp */

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70A609152347BF6E007B6219 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70A609142347BF6E007B6219 /* main.cpp */; };
+		70A6091F2347C043007B6219 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70A6091E2347C043007B6219 /* main.cpp */; };
+		70A609222347C058007B6219 /* substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70A609202347C058007B6219 /* substring.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		70A609112347BF6E007B6219 /* Programming With a String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programming With a String"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70A609142347BF6E007B6219 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		70A6091E2347C043007B6219 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		70A609202347C058007B6219 /* substring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = substring.cpp; sourceTree = "<group>"; };
+		70A609212347C058007B6219 /* substring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = substring.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		70A609132347BF6E007B6219 /* Programming With a String */ = {
 			isa = PBXGroup;
 			children = (
-				70A609142347BF6E007B6219 /* main.cpp */,
+				70A6091E2347C043007B6219 /* main.cpp */,
+				70A609202347C058007B6219 /* substring.cpp */,
+				70A609212347C058007B6219 /* substring.hpp */,
 			);
 			path = "Programming With a String";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A609152347BF6E007B6219 /* main.cpp in Sources */,
+				70A6091F2347C043007B6219 /* main.cpp in Sources */,
+				70A609222347C058007B6219 /* substring.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
