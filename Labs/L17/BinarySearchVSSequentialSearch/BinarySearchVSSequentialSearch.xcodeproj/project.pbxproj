@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		702181162350F702007D0447 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 702181152350F702007D0447 /* main.cpp */; };
+		7021811E2354CD74007D0447 /* binarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7021811C2354CD74007D0447 /* binarySearch.cpp */; };
+		702181212354CEA8007D0447 /* sequentialSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7021811F2354CEA8007D0447 /* sequentialSearch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		702181122350F702007D0447 /* BinarySearchVSSequentialSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinarySearchVSSequentialSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		702181152350F702007D0447 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7021811C2354CD74007D0447 /* binarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarySearch.cpp; sourceTree = "<group>"; };
+		7021811D2354CD74007D0447 /* binarySearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binarySearch.hpp; sourceTree = "<group>"; };
+		7021811F2354CEA8007D0447 /* sequentialSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sequentialSearch.cpp; sourceTree = "<group>"; };
+		702181202354CEA8007D0447 /* sequentialSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sequentialSearch.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				702181152350F702007D0447 /* main.cpp */,
+				7021811C2354CD74007D0447 /* binarySearch.cpp */,
+				7021811D2354CD74007D0447 /* binarySearch.hpp */,
+				7021811F2354CEA8007D0447 /* sequentialSearch.cpp */,
+				702181202354CEA8007D0447 /* sequentialSearch.hpp */,
 			);
 			path = BinarySearchVSSequentialSearch;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702181212354CEA8007D0447 /* sequentialSearch.cpp in Sources */,
+				7021811E2354CD74007D0447 /* binarySearch.cpp in Sources */,
 				702181162350F702007D0447 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

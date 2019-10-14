@@ -10,5 +10,17 @@
 #define sequentialSearch_hpp
 
 #include <stdio.h>
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::cin;
+#include <vector>
+using std::vector;
+#include <string>
+using std::string;
+using std::getline;
+#include <sstream>
+using std::istringstream;
 
+bool sequentialSearch(const vector<int> &keys, const vector<int> &Dataset, int thekey, int &thevalue);
 #endif /* sequentialSearch_hpp */
