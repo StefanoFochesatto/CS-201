@@ -10,5 +10,17 @@
 #define tokenize_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <sstream>
+
+void tokenize(std::string& user_input);
+
+
+
+
+
+
 
 #endif /* tokenize_hpp */

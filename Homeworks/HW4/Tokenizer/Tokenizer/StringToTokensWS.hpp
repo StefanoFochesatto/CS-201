@@ -11,4 +11,9 @@
 
 #include <stdio.h>
 
+#include <iostream>
+#include <string>
+#include <vector>
+
+unsigned StringToTokensWS(const std::vector<std::string> &tokens);
 #endif /* StringToTokensWS_hpp */

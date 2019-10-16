@@ -8,8 +8,10 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
+#include <sstream>
 #include "ReadLine.hpp"
-
+#include "tokenize.hpp"
 
 
 int main(int argc, const char * argv[]) {
@@ -20,11 +22,9 @@ int main(int argc, const char * argv[]) {
     
     std::cout << ReadLine(user_input);
     
+    tokenize(user_input);
     
-    
-    
-    
-    
+  
     
     return 0;
 }
