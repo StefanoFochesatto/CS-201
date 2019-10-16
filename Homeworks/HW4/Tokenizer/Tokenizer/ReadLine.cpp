@@ -7,3 +7,14 @@
 //
 
 #include "ReadLine.hpp"
+#include <iostream>
+#include <string>
+
+
+bool ReadLine(std::string& user_input){
+    
+    if (user_input.size()){
+        return true;
+    }
+    return false;
+}

@@ -10,5 +10,8 @@
 #define ReadLine_hpp
 
 #include <stdio.h>
+#include <string>
+
+bool ReadLine(std::string& user_input);
 
 #endif /* ReadLine_hpp */

@@ -7,9 +7,24 @@
 //
 
 #include <iostream>
+#include <string>
+#include "ReadLine.hpp"
+
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+    std::cout << "Please enter a string" << std::endl;
+    std::string user_input;
+    std::getline(std::cin, user_input);
+    
+    std::cout << ReadLine(user_input);
+    
+    
+    
+    
+    
+    
+    
     return 0;
 }
