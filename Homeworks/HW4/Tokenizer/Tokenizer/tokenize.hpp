@@ -15,7 +15,7 @@
 #include <vector>
 #include <sstream>
 
-void tokenize(std::string& user_input);
+std::vector<std::string> tokenize(std::string& user_input);
 
 
 

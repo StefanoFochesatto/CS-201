@@ -13,7 +13,7 @@
 #include <vector>
 #include <sstream>
 
-void tokenize(std::string& user_input ){
+std::vector<std::string> tokenize(std::string& user_input ){
     
     
     std::vector<std::string> tokens;
@@ -25,15 +25,6 @@ void tokenize(std::string& user_input ){
       {
           tokens.push_back(place_holder);
       }
-
-    for(int i = 0; i < tokens.size(); i++)
-        {
-             std::cout << tokens[i] << "\n";
-        }
-    
-    
-    
-    
-    
+    return tokens;
 }
 

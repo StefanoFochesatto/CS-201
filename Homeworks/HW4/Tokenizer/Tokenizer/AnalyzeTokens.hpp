@@ -11,4 +11,12 @@
 
 #include <stdio.h>
 
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+
+void AnalyzeTokens(const std::vector<std::string> &tokens);
+
 #endif /* AnalyzeTokens_hpp */

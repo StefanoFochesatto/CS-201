@@ -11,6 +11,7 @@
 		70853FB72356CBB0002B8D93 /* ReadLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70853FB52356CBB0002B8D93 /* ReadLine.cpp */; };
 		70853FBA2356D186002B8D93 /* tokenize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70853FB82356D186002B8D93 /* tokenize.cpp */; };
 		70853FBD2356D31E002B8D93 /* StringToTokensWS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70853FBB2356D31E002B8D93 /* StringToTokensWS.cpp */; };
+		70853FC02356D727002B8D93 /* AnalyzeTokens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70853FBE2356D727002B8D93 /* AnalyzeTokens.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		70853FB92356D186002B8D93 /* tokenize.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tokenize.hpp; sourceTree = "<group>"; };
 		70853FBB2356D31E002B8D93 /* StringToTokensWS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringToTokensWS.cpp; sourceTree = "<group>"; };
 		70853FBC2356D31E002B8D93 /* StringToTokensWS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringToTokensWS.hpp; sourceTree = "<group>"; };
+		70853FBE2356D727002B8D93 /* AnalyzeTokens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AnalyzeTokens.cpp; sourceTree = "<group>"; };
+		70853FBF2356D727002B8D93 /* AnalyzeTokens.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AnalyzeTokens.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				70853FAE2356CB75002B8D93 /* main.cpp */,
+				70853FBE2356D727002B8D93 /* AnalyzeTokens.cpp */,
+				70853FBF2356D727002B8D93 /* AnalyzeTokens.hpp */,
 				70853FBB2356D31E002B8D93 /* StringToTokensWS.cpp */,
 				70853FBC2356D31E002B8D93 /* StringToTokensWS.hpp */,
 				70853FB82356D186002B8D93 /* tokenize.cpp */,
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70853FC02356D727002B8D93 /* AnalyzeTokens.cpp in Sources */,
 				70853FAF2356CB75002B8D93 /* main.cpp in Sources */,
 				70853FBD2356D31E002B8D93 /* StringToTokensWS.cpp in Sources */,
 				70853FBA2356D186002B8D93 /* tokenize.cpp in Sources */,

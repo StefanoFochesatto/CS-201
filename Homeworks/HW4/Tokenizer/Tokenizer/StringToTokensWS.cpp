@@ -13,8 +13,5 @@
 #include <vector>
 
 unsigned StringToTokensWS(const std::vector<std::string> &tokens){
-
-    
-    
-    
+    return (int)tokens.size();
 }
