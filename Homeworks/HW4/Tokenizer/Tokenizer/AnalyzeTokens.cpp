@@ -78,7 +78,7 @@ void AnalyzeTokens(const std::vector<std::string> &tokens){
         }
            
         else if(isWhiteSpace(tokens[i])){
-                                std::cout << "[Whitespace]  " << " \" \" \n";
+                                std::cout << "[Whitespace]  " << " \"\" \n";
         
             
             
