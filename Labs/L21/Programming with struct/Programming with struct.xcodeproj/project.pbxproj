@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		700231A72360CD03006B227F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 700231A62360CD03006B227F /* main.cpp */; };
+		700231AF2360CD36006B227F /* truncstruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 700231AD2360CD36006B227F /* truncstruct.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		700231A32360CD03006B227F /* Programming with struct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programming with struct"; sourceTree = BUILT_PRODUCTS_DIR; };
 		700231A62360CD03006B227F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		700231AD2360CD36006B227F /* truncstruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = truncstruct.cpp; sourceTree = "<group>"; };
+		700231AE2360CD36006B227F /* truncstruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = truncstruct.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				700231A62360CD03006B227F /* main.cpp */,
+				700231AD2360CD36006B227F /* truncstruct.cpp */,
+				700231AE2360CD36006B227F /* truncstruct.hpp */,
 			);
 			path = "Programming with struct";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				700231A72360CD03006B227F /* main.cpp in Sources */,
+				700231AF2360CD36006B227F /* truncstruct.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

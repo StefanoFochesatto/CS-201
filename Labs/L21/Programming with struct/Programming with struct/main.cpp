@@ -7,9 +7,31 @@
 //
 
 #include <iostream>
+#include <string>
+#include "truncstruct.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "Please input a string\n";
+  
+    std::string str;
+    std::getline (std::cin,str);
+    
+    std::cout << "Please input an int\n";
+   unsigned int truncate;
+    std::cin >> truncate;
+    
+    StringInfo si = {str , truncate};
+ 
+    StringInfo si2 = trunc(si);
+    
+    std::cout << si2.str;
+
+    
+    
+    
+    
+    
+    
+    
     return 0;
 }

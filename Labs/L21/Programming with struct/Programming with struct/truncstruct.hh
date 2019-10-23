@@ -19,8 +19,8 @@
  * Holds string and info about its length.
  */
 struct StringInfo {
-    std::string str;
-    std::size_t len;
+	std::string str;
+	std::size_t len;
 };
 
 /**
