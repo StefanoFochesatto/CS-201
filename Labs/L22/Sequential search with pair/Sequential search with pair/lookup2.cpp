@@ -1,9 +1,142 @@
-//
-//  lookup2.cpp
-//  Sequential search with pair
-//
-//  Created by Stefano Fochesatto on 10/25/19.
-//  Copyright © 2019 Stefano Fochesatto. All rights reserved.
-//
 
-#include "lookup2.hpp"
+// lookup.cpp  INCOMPLETE
+// Glenn G. Chappell
+// 21 Mar 2018
+//
+// For CS 201 Spring 2018
+// Look-up by Key, Improved
+//
+// Modified 10/26/18
+// Chris Hartman
+// For CS 201 Fall 2018
+
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::cin;
+#include <vector>
+using std::vector;
+#include <utility>
+using std::pair;
+using std::make_pair;
+#include <cstdlib>
+using std::size_t;
+#include <string>
+using std::string;
+using std::getline;
+#include <sstream>
+using std::istringstream;
+
+
+// sequentialSearch
+// Given a vector<pair<int, string>> holding key-value pairs, and a key
+// to search for (thekey). Does Sequential Search in an attempt to find
+// the given key. If it is not found, returns pair containing false and
+// an arbitrary number. If it is found, returns a pair containing true
+// and the index at which the key was found.
+pair<bool, size_t>
+    sequentialSearch(const vector<pair<int, string>> kvpairs,
+                     int thekey)
+{
+    size_t count  = 0;
+    std::pair<bool, size_t> re_type;
+    for( auto i: kvpairs){
+         if(i.first==thekey){
+             re_type = std::make_pair(true, count);
+             break;
+         }
+         else {
+             re_type = std::make_pair(false, -1);
+         }
+        
+        count++;
+    }
+ return re_type;
+    
+    
+   // for (int i = 0 ; i < kvpairs.size() ; i++){
+     //    if(kvpairs[i]==thekey){
+       //      return pair<true, i>;
+         //}
+     //}
+}
+
+
+// Main program
+// Create a dataset, and do searches in it.
+int main()
+{
+    // Make associative (KEY-VALUE) dataset
+    vector<pair<int, string>> kvpairs {
+        { 21, "Alice Smith" },
+        { 22, "Bill Jones" },
+        { 23, "Charles Johnson" },
+        { 25, "Daphne Robertson" },
+        { 27, "Egbert Williams" },
+        { 31, "Fifi Phillips" },
+        { 32, "George Watson" },
+        { 33, "Harriet Baker" },
+        { 36, "Iris Gump" },
+        { 38, "Jake Hawkins" }
+    };
+
+    // Print opening message
+    cout << "Sequential Search in an associative dataset" << endl;
+    cout << endl;
+
+    // Input & search loop
+    while (true)
+    {
+        // Get a line
+        cout << "Type a positive integer KEY (empty line to end): ";
+        string line;
+        getline(cin, line);
+        if (!cin)
+            return 0;
+        if (line == "")
+            break;
+
+        // Get an int from the above line
+        istringstream in(line);
+        int thekey;
+        in >> thekey;
+        if (!in)
+        {
+            cout << "Please type a positive integer" << endl;
+            cout << endl;
+            continue;
+        }
+        if (thekey < 1)
+        {
+            cout << "Please type a positive integer" << endl;
+            cout << endl;
+            continue;
+        }
+
+        auto p = sequentialSearch(kvpairs, thekey);
+        auto success = p.first;
+        if (success)
+        {
+            auto index = p.second;
+            auto kv = kvpairs[index];
+            cout << "KEY found; VALUE = " << kv.second << endl;
+        }
+        else
+        {
+            cout << "KEY not found" << endl;
+            string User_Input;
+            cout << "Please enter a string" << endl;
+            std::getline (std::cin,User_Input);
+            std::pair<int,string> newpair;
+            newpair= std::make_pair(thekey, User_Input);
+            kvpairs.push_back(newpair);
+        
+        }
+        cout << endl;
+    }
+    cout << endl;
+
+    // Quit when user hits Enter
+    cout << "Press ENTER to quit ";
+    while (cin.get() != '\n') ;
+}
