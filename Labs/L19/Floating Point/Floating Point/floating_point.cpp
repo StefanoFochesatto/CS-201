@@ -1,9 +1,30 @@
-//
-//  floating_point.cpp
-//  Floating Point
-//
-//  Created by Stefano Fochesatto on 10/28/19.
-//  Copyright © 2019 Stefano Fochesatto. All rights reserved.
-//
+/**
+ * @file     floating_point.cpp
+ * @author   Student Name
+ * @version  Mar 1, 2019
+ * John Quan
+ *
+ * Useful trigonometric functions.
+ */
 
-#include "floating_point.hpp"
+// using M_PI for pi
+#define _USE_MATH_DEFINES
+#include <cmath>
+
+#include <vector>
+
+std::vector<double> degreesToRadians(int degrees) {
+
+    std::vector<double> radians;
+
+    // for each degree, fill the vector with its radian
+    for (int degree = 0; degree <= degrees; ++degree) {
+        // TODO: calculate a radian and add it to the vector****************
+        double radian = degree * M_PI / 180.0;
+        radians.push_back(radian);
+        // *****************************************************************
+    }
+    return radians;
+}
+
+

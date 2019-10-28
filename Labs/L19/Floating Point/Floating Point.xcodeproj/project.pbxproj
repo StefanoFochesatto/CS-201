@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70D626AF23674AEB0080EEC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D626AE23674AEB0080EEC0 /* main.cpp */; };
+		70D626B623674B250080EEC0 /* floating_point_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D626B523674B250080EEC0 /* floating_point_main.cpp */; };
+		70D626B923674B600080EEC0 /* floating_point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D626B723674B600080EEC0 /* floating_point.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		70D626AB23674AEB0080EEC0 /* Floating Point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Floating Point"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70D626AE23674AEB0080EEC0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		70D626B523674B250080EEC0 /* floating_point_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = floating_point_main.cpp; sourceTree = "<group>"; };
+		70D626B723674B600080EEC0 /* floating_point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = floating_point.cpp; sourceTree = "<group>"; };
+		70D626B823674B600080EEC0 /* floating_point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = floating_point.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		70D626AD23674AEB0080EEC0 /* Floating Point */ = {
 			isa = PBXGroup;
 			children = (
-				70D626AE23674AEB0080EEC0 /* main.cpp */,
+				70D626B523674B250080EEC0 /* floating_point_main.cpp */,
+				70D626B723674B600080EEC0 /* floating_point.cpp */,
+				70D626B823674B600080EEC0 /* floating_point.hpp */,
 			);
 			path = "Floating Point";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D626AF23674AEB0080EEC0 /* main.cpp in Sources */,
+				70D626B923674B600080EEC0 /* floating_point.cpp in Sources */,
+				70D626B623674B250080EEC0 /* floating_point_main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
