@@ -23,6 +23,347 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		702B0CB5236FD720000C8F94 /* INSTALL_RECEIPT.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = INSTALL_RECEIPT.json; sourceTree = "<group>"; };
+		702B0CB7236FD720000C8F94 /* fltk-config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "fltk-config"; sourceTree = "<group>"; };
+		702B0CB8236FD720000C8F94 /* fluid */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = fluid; sourceTree = "<group>"; };
+		702B0CBA236FD720000C8F94 /* fltk.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = fltk.rb; sourceTree = "<group>"; };
+		702B0CBB236FD720000C8F94 /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		702B0CBE236FD720000C8F94 /* glut.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = glut.H; sourceTree = "<group>"; };
+		702B0CBF236FD720000C8F94 /* Fl_PNM_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_PNM_Image.H; sourceTree = "<group>"; };
+		702B0CC0236FD720000C8F94 /* Fl_Radio_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Radio_Button.H; sourceTree = "<group>"; };
+		702B0CC1236FD720000C8F94 /* Fl_Toggle_Round_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Toggle_Round_Button.H; sourceTree = "<group>"; };
+		702B0CC2236FD720000C8F94 /* Fl_Text_Buffer.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Text_Buffer.H; sourceTree = "<group>"; };
+		702B0CC3236FD720000C8F94 /* fl_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fl_types.h; sourceTree = "<group>"; };
+		702B0CC4236FD720000C8F94 /* Fl_Printer.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Printer.H; sourceTree = "<group>"; };
+		702B0CC5236FD720000C8F94 /* fl_utf8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fl_utf8.h; sourceTree = "<group>"; };
+		702B0CC6236FD720000C8F94 /* fl_draw.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_draw.H; sourceTree = "<group>"; };
+		702B0CC7236FD720000C8F94 /* Fl_Toggle_Light_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Toggle_Light_Button.H; sourceTree = "<group>"; };
+		702B0CC8236FD720000C8F94 /* Fl_Color_Chooser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Color_Chooser.H; sourceTree = "<group>"; };
+		702B0CC9236FD720000C8F94 /* fl_show_colormap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_show_colormap.H; sourceTree = "<group>"; };
+		702B0CCA236FD720000C8F94 /* fl_show_input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_show_input.H; sourceTree = "<group>"; };
+		702B0CCB236FD720000C8F94 /* Fl_Single_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Single_Window.H; sourceTree = "<group>"; };
+		702B0CCC236FD720000C8F94 /* Fl_Shared_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Shared_Image.H; sourceTree = "<group>"; };
+		702B0CCD236FD720000C8F94 /* Fl_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Input.H; sourceTree = "<group>"; };
+		702B0CCE236FD720000C8F94 /* Fl_Export.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Export.H; sourceTree = "<group>"; };
+		702B0CCF236FD720000C8F94 /* Fl_Round_Clock.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Round_Clock.H; sourceTree = "<group>"; };
+		702B0CD0236FD720000C8F94 /* Fl_Tree_Item.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tree_Item.H; sourceTree = "<group>"; };
+		702B0CD1236FD720000C8F94 /* gl_draw.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gl_draw.H; sourceTree = "<group>"; };
+		702B0CD2236FD720000C8F94 /* Fl_Plugin.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Plugin.H; sourceTree = "<group>"; };
+		702B0CD3236FD720000C8F94 /* Fl_Fill_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Fill_Slider.H; sourceTree = "<group>"; };
+		702B0CD4236FD720000C8F94 /* Fl_Device.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Device.H; sourceTree = "<group>"; };
+		702B0CD5236FD720000C8F94 /* Fl_Image_Surface.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Image_Surface.H; sourceTree = "<group>"; };
+		702B0CD6236FD720000C8F94 /* Fl_Menu_.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_.H; sourceTree = "<group>"; };
+		702B0CD7236FD720000C8F94 /* Fl_Value_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Value_Input.H; sourceTree = "<group>"; };
+		702B0CD8236FD720000C8F94 /* Fl_Positioner.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Positioner.H; sourceTree = "<group>"; };
+		702B0CD9236FD720000C8F94 /* Fl_Roller.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Roller.H; sourceTree = "<group>"; };
+		702B0CDA236FD720000C8F94 /* Fl_Counter.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Counter.H; sourceTree = "<group>"; };
+		702B0CDB236FD720000C8F94 /* Fl_Multi_Label.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Multi_Label.H; sourceTree = "<group>"; };
+		702B0CDC236FD720000C8F94 /* Fl_Scroll.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Scroll.H; sourceTree = "<group>"; };
+		702B0CDD236FD720000C8F94 /* Fl_Hor_Fill_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hor_Fill_Slider.H; sourceTree = "<group>"; };
+		702B0CDE236FD720000C8F94 /* Fl_Hor_Value_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hor_Value_Slider.H; sourceTree = "<group>"; };
+		702B0CDF236FD720000C8F94 /* abi-version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "abi-version.h"; sourceTree = "<group>"; };
+		702B0CE0236FD720000C8F94 /* Fl_Gl_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Gl_Window.H; sourceTree = "<group>"; };
+		702B0CE1236FD720000C8F94 /* Fl_Multiline_Output.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Multiline_Output.H; sourceTree = "<group>"; };
+		702B0CE2236FD720000C8F94 /* Fl_Input_.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Input_.H; sourceTree = "<group>"; };
+		702B0CE3236FD720000C8F94 /* Fl_Widget.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Widget.H; sourceTree = "<group>"; };
+		702B0CE4236FD720000C8F94 /* Fl_PNG_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_PNG_Image.H; sourceTree = "<group>"; };
+		702B0CE5236FD720000C8F94 /* Fl_Float_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Float_Input.H; sourceTree = "<group>"; };
+		702B0CE6236FD720000C8F94 /* Fl_File_Chooser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_File_Chooser.H; sourceTree = "<group>"; };
+		702B0CE7236FD720000C8F94 /* Fl_Double_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Double_Window.H; sourceTree = "<group>"; };
+		702B0CE8236FD720000C8F94 /* Fl_Input_Choice.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Input_Choice.H; sourceTree = "<group>"; };
+		702B0CE9236FD720000C8F94 /* Fl_Native_File_Chooser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Native_File_Chooser.H; sourceTree = "<group>"; };
+		702B0CEA236FD720000C8F94 /* Fl_Int_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Int_Input.H; sourceTree = "<group>"; };
+		702B0CEB236FD720000C8F94 /* Fl_Sys_Menu_Bar.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Sys_Menu_Bar.H; sourceTree = "<group>"; };
+		702B0CEC236FD720000C8F94 /* Fl_Menu.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu.H; sourceTree = "<group>"; };
+		702B0CED236FD720000C8F94 /* Fl_Help_Dialog.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Help_Dialog.H; sourceTree = "<group>"; };
+		702B0CEE236FD720000C8F94 /* Fl_Choice.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Choice.H; sourceTree = "<group>"; };
+		702B0CEF236FD720000C8F94 /* Fl_Menu_Bar.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_Bar.H; sourceTree = "<group>"; };
+		702B0CF0236FD720000C8F94 /* Fl_Select_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Select_Browser.H; sourceTree = "<group>"; };
+		702B0CF1236FD720000C8F94 /* Fl_Multi_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Multi_Browser.H; sourceTree = "<group>"; };
+		702B0CF2236FD720000C8F94 /* dirent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dirent.h; sourceTree = "<group>"; };
+		702B0CF3236FD720000C8F94 /* Fl_Menu_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_Window.H; sourceTree = "<group>"; };
+		702B0CF4236FD720000C8F94 /* fl_message.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_message.H; sourceTree = "<group>"; };
+		702B0CF5236FD720000C8F94 /* Fl_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Window.H; sourceTree = "<group>"; };
+		702B0CF6236FD720000C8F94 /* Fl_JPEG_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_JPEG_Image.H; sourceTree = "<group>"; };
+		702B0CF7236FD720000C8F94 /* Fl_Cairo.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Cairo.H; sourceTree = "<group>"; };
+		702B0CF8236FD720000C8F94 /* Fl_Fill_Dial.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Fill_Dial.H; sourceTree = "<group>"; };
+		702B0CF9236FD720000C8F94 /* Fl_Preferences.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Preferences.H; sourceTree = "<group>"; };
+		702B0CFA236FD720000C8F94 /* Fl_File_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_File_Browser.H; sourceTree = "<group>"; };
+		702B0CFB236FD720000C8F94 /* Fl_Box.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Box.H; sourceTree = "<group>"; };
+		702B0CFC236FD720000C8F94 /* Fl_Output.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Output.H; sourceTree = "<group>"; };
+		702B0CFD236FD720000C8F94 /* Fl_Multiline_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Multiline_Input.H; sourceTree = "<group>"; };
+		702B0CFE236FD720000C8F94 /* Fl_Hor_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hor_Slider.H; sourceTree = "<group>"; };
+		702B0CFF236FD720000C8F94 /* Fl_Chart.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Chart.H; sourceTree = "<group>"; };
+		702B0D00236FD720000C8F94 /* Fl_Tabs.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tabs.H; sourceTree = "<group>"; };
+		702B0D01236FD720000C8F94 /* win32.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = win32.H; sourceTree = "<group>"; };
+		702B0D02236FD720000C8F94 /* Fl_Repeat_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Repeat_Button.H; sourceTree = "<group>"; };
+		702B0D03236FD720000C8F94 /* Enumerations.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enumerations.H; sourceTree = "<group>"; };
+		702B0D04236FD720000C8F94 /* Fl_Value_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Value_Slider.H; sourceTree = "<group>"; };
+		702B0D05236FD720000C8F94 /* Fl_XBM_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_XBM_Image.H; sourceTree = "<group>"; };
+		702B0D06236FD720000C8F94 /* Fl_Tree.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tree.H; sourceTree = "<group>"; };
+		702B0D07236FD720000C8F94 /* Fl_Copy_Surface.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Copy_Surface.H; sourceTree = "<group>"; };
+		702B0D08236FD720000C8F94 /* Fl_Dial.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Dial.H; sourceTree = "<group>"; };
+		702B0D09236FD720000C8F94 /* Fl_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Browser.H; sourceTree = "<group>"; };
+		702B0D0A236FD720000C8F94 /* Fl_Text_Editor.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Text_Editor.H; sourceTree = "<group>"; };
+		702B0D0B236FD720000C8F94 /* Fl_Table.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Table.H; sourceTree = "<group>"; };
+		702B0D0C236FD720000C8F94 /* glu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glu.h; sourceTree = "<group>"; };
+		702B0D0D236FD720000C8F94 /* Fl_Overlay_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Overlay_Window.H; sourceTree = "<group>"; };
+		702B0D0E236FD720000C8F94 /* Fl.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl.H; sourceTree = "<group>"; };
+		702B0D0F236FD720000C8F94 /* Fl_Valuator.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Valuator.H; sourceTree = "<group>"; };
+		702B0D10236FD720000C8F94 /* Fl_Line_Dial.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Line_Dial.H; sourceTree = "<group>"; };
+		702B0D11236FD720000C8F94 /* Fl_Spinner.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Spinner.H; sourceTree = "<group>"; };
+		702B0D12236FD720000C8F94 /* Fl_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Slider.H; sourceTree = "<group>"; };
+		702B0D13236FD720000C8F94 /* Fl_GIF_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_GIF_Image.H; sourceTree = "<group>"; };
+		702B0D14236FD720000C8F94 /* Fl_Scrollbar.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Scrollbar.H; sourceTree = "<group>"; };
+		702B0D15236FD720000C8F94 /* fl_ask.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_ask.H; sourceTree = "<group>"; };
+		702B0D16236FD720000C8F94 /* Fl_RGB_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_RGB_Image.H; sourceTree = "<group>"; };
+		702B0D17236FD720000C8F94 /* Fl_PostScript.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_PostScript.H; sourceTree = "<group>"; };
+		702B0D18236FD720000C8F94 /* Fl_FormsBitmap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_FormsBitmap.H; sourceTree = "<group>"; };
+		702B0D19236FD720000C8F94 /* Fl_Adjuster.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Adjuster.H; sourceTree = "<group>"; };
+		702B0D1A236FD720000C8F94 /* names.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = names.h; sourceTree = "<group>"; };
+		702B0D1B236FD720000C8F94 /* Fl_Value_Output.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Value_Output.H; sourceTree = "<group>"; };
+		702B0D1C236FD720000C8F94 /* Fl_Table_Row.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Table_Row.H; sourceTree = "<group>"; };
+		702B0D1D236FD720000C8F94 /* Fl_Pixmap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Pixmap.H; sourceTree = "<group>"; };
+		702B0D1E236FD720000C8F94 /* Fl_Wizard.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Wizard.H; sourceTree = "<group>"; };
+		702B0D1F236FD720000C8F94 /* Fl_Hor_Nice_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hor_Nice_Slider.H; sourceTree = "<group>"; };
+		702B0D20236FD720000C8F94 /* Fl_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Button.H; sourceTree = "<group>"; };
+		702B0D21236FD720000C8F94 /* Fl_Menu_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_Button.H; sourceTree = "<group>"; };
+		702B0D22236FD720000C8F94 /* Fl_Cairo_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Cairo_Window.H; sourceTree = "<group>"; };
+		702B0D23236FD720000C8F94 /* Fl_Group.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Group.H; sourceTree = "<group>"; };
+		702B0D24236FD720000C8F94 /* Fl_Timer.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Timer.H; sourceTree = "<group>"; };
+		702B0D25236FD720000C8F94 /* Fl_File_Icon.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_File_Icon.H; sourceTree = "<group>"; };
+		702B0D26236FD720000C8F94 /* Fl_Nice_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Nice_Slider.H; sourceTree = "<group>"; };
+		702B0D27236FD720000C8F94 /* Fl_File_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_File_Input.H; sourceTree = "<group>"; };
+		702B0D28236FD720000C8F94 /* Fl_Help_View.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Help_View.H; sourceTree = "<group>"; };
+		702B0D29236FD720000C8F94 /* Fl_Object.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Object.H; sourceTree = "<group>"; };
+		702B0D2A236FD720000C8F94 /* gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
+		702B0D2B236FD720000C8F94 /* Fl_Check_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Check_Button.H; sourceTree = "<group>"; };
+		702B0D2C236FD720000C8F94 /* math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
+		702B0D2D236FD720000C8F94 /* gl2opengl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl2opengl.h; sourceTree = "<group>"; };
+		702B0D2E236FD720000C8F94 /* Fl_Paged_Device.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Paged_Device.H; sourceTree = "<group>"; };
+		702B0D2F236FD720000C8F94 /* Fl_Tree_Item_Array.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tree_Item_Array.H; sourceTree = "<group>"; };
+		702B0D30236FD720000C8F94 /* Fl_Browser_.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Browser_.H; sourceTree = "<group>"; };
+		702B0D31236FD720000C8F94 /* Fl_Return_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Return_Button.H; sourceTree = "<group>"; };
+		702B0D32236FD720000C8F94 /* Fl_Round_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Round_Button.H; sourceTree = "<group>"; };
+		702B0D33236FD720000C8F94 /* Fl_XPM_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_XPM_Image.H; sourceTree = "<group>"; };
+		702B0D34236FD720000C8F94 /* Fl_Secret_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Secret_Input.H; sourceTree = "<group>"; };
+		702B0D35236FD720000C8F94 /* Fl_Check_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Check_Browser.H; sourceTree = "<group>"; };
+		702B0D36236FD720000C8F94 /* Fl_Hold_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hold_Browser.H; sourceTree = "<group>"; };
+		702B0D37236FD720000C8F94 /* Fl_Light_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Light_Button.H; sourceTree = "<group>"; };
+		702B0D38236FD720000C8F94 /* Fl_Toggle_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Toggle_Button.H; sourceTree = "<group>"; };
+		702B0D39236FD720000C8F94 /* Fl_Tile.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tile.H; sourceTree = "<group>"; };
+		702B0D3A236FD720000C8F94 /* Fl_FormsPixmap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_FormsPixmap.H; sourceTree = "<group>"; };
+		702B0D3B236FD720000C8F94 /* forms.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = forms.H; sourceTree = "<group>"; };
+		702B0D3C236FD720000C8F94 /* mac.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mac.H; sourceTree = "<group>"; };
+		702B0D3D236FD720000C8F94 /* Fl_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Image.H; sourceTree = "<group>"; };
+		702B0D3E236FD720000C8F94 /* Fl_Clock.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Clock.H; sourceTree = "<group>"; };
+		702B0D3F236FD720000C8F94 /* Fl_Bitmap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Bitmap.H; sourceTree = "<group>"; };
+		702B0D40236FD720000C8F94 /* filename.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = filename.H; sourceTree = "<group>"; };
+		702B0D41236FD720000C8F94 /* Fl_Progress.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Progress.H; sourceTree = "<group>"; };
+		702B0D42236FD720000C8F94 /* Fl_Tooltip.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tooltip.H; sourceTree = "<group>"; };
+		702B0D43236FD720000C8F94 /* Fl_Simple_Counter.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Simple_Counter.H; sourceTree = "<group>"; };
+		702B0D44236FD720000C8F94 /* Fl_Text_Display.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Text_Display.H; sourceTree = "<group>"; };
+		702B0D45236FD720000C8F94 /* Fl_Free.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Free.H; sourceTree = "<group>"; };
+		702B0D46236FD720000C8F94 /* Fl_Radio_Round_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Radio_Round_Button.H; sourceTree = "<group>"; };
+		702B0D47236FD720000C8F94 /* x.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = x.H; sourceTree = "<group>"; };
+		702B0D48236FD720000C8F94 /* platform.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = platform.H; sourceTree = "<group>"; };
+		702B0D49236FD720000C8F94 /* Fl_Tree_Prefs.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tree_Prefs.H; sourceTree = "<group>"; };
+		702B0D4A236FD720000C8F94 /* Fl_Menu_Item.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_Item.H; sourceTree = "<group>"; };
+		702B0D4B236FD720000C8F94 /* Fl_BMP_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_BMP_Image.H; sourceTree = "<group>"; };
+		702B0D4C236FD720000C8F94 /* Fl_Tiled_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tiled_Image.H; sourceTree = "<group>"; };
+		702B0D4D236FD720000C8F94 /* Fl_Pack.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Pack.H; sourceTree = "<group>"; };
+		702B0D4E236FD720000C8F94 /* Fl_Radio_Light_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Radio_Light_Button.H; sourceTree = "<group>"; };
+		702B0D4F236FD720000C8F94 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		702B0D50236FD720000C8F94 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		702B0D52236FD720000C8F94 /* libfltk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfltk.a; sourceTree = "<group>"; };
+		702B0D53236FD720000C8F94 /* libfltk_gl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfltk_gl.a; sourceTree = "<group>"; };
+		702B0D54236FD720000C8F94 /* libfltk_images.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_images.1.3.dylib; sourceTree = "<group>"; };
+		702B0D55236FD720000C8F94 /* libfltk_gl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_gl.dylib; sourceTree = "<group>"; };
+		702B0D56236FD720000C8F94 /* libfltk_forms.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_forms.1.3.dylib; sourceTree = "<group>"; };
+		702B0D57236FD720000C8F94 /* libfltk_images.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfltk_images.a; sourceTree = "<group>"; };
+		702B0D58236FD720000C8F94 /* libfltk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk.dylib; sourceTree = "<group>"; };
+		702B0D59236FD720000C8F94 /* libfltk_forms.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_forms.dylib; sourceTree = "<group>"; };
+		702B0D5A236FD720000C8F94 /* libfltk.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk.1.3.dylib; sourceTree = "<group>"; };
+		702B0D5B236FD720000C8F94 /* libfltk_gl.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_gl.1.3.dylib; sourceTree = "<group>"; };
+		702B0D5C236FD720000C8F94 /* libfltk_forms.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfltk_forms.a; sourceTree = "<group>"; };
+		702B0D5D236FD720000C8F94 /* libfltk_images.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_images.dylib; sourceTree = "<group>"; };
+		702B0D61236FD720000C8F94 /* fltk-config.0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fltk-config.0"; sourceTree = "<group>"; };
+		702B0D62236FD720000C8F94 /* fluid.0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = fluid.0; sourceTree = "<group>"; };
+		702B0D64236FD720000C8F94 /* fltk.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = fltk.3; sourceTree = "<group>"; };
+		702B0D66236FD720000C8F94 /* fltk-config.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "fltk-config.1"; sourceTree = "<group>"; };
+		702B0D67236FD720000C8F94 /* fluid.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fluid.1; sourceTree = "<group>"; };
+		702B0D69236FD720000C8F94 /* fltk.0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = fltk.0; sourceTree = "<group>"; };
+		702B0D6D236FD720000C8F94 /* list_visuals.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_visuals.cxx; sourceTree = "<group>"; };
+		702B0D6E236FD720000C8F94 /* trackball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trackball.h; sourceTree = "<group>"; };
+		702B0D6F236FD720000C8F94 /* ask.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ask.cxx; sourceTree = "<group>"; };
+		702B0D70236FD720000C8F94 /* unittest_schemes.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_schemes.cxx; sourceTree = "<group>"; };
+		702B0D71236FD720000C8F94 /* CubeView.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CubeView.cxx; sourceTree = "<group>"; };
+		702B0D72236FD720000C8F94 /* tiled_image.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tiled_image.cxx; sourceTree = "<group>"; };
+		702B0D73236FD720000C8F94 /* threads.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threads.cxx; sourceTree = "<group>"; };
+		702B0D74236FD720000C8F94 /* demo.menu */ = {isa = PBXFileReference; lastKnownFileType = text; path = demo.menu; sourceTree = "<group>"; };
+		702B0D75236FD720000C8F94 /* animated.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = animated.cxx; sourceTree = "<group>"; };
+		702B0D76236FD720000C8F94 /* utf8.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utf8.cxx; sourceTree = "<group>"; };
+		702B0D77236FD720000C8F94 /* unittest_text.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_text.cxx; sourceTree = "<group>"; };
+		702B0D78236FD720000C8F94 /* unittest_lines.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_lines.cxx; sourceTree = "<group>"; };
+		702B0D79236FD720000C8F94 /* keyboard.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = keyboard.cxx; sourceTree = "<group>"; };
+		702B0D7A236FD720000C8F94 /* preferences.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = preferences.fl; sourceTree = "<group>"; };
+		702B0D7B236FD720000C8F94 /* resizebox.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resizebox.cxx; sourceTree = "<group>"; };
+		702B0D7C236FD720000C8F94 /* blocks.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blocks.cxx; sourceTree = "<group>"; };
+		702B0D7D236FD720000C8F94 /* unittest_viewport.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_viewport.cxx; sourceTree = "<group>"; };
+		702B0D7E236FD720000C8F94 /* sudoku.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sudoku.cxx; sourceTree = "<group>"; };
+		702B0D7F236FD720000C8F94 /* cursor.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cursor.cxx; sourceTree = "<group>"; };
+		702B0D80236FD720000C8F94 /* tabs.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tabs.cxx; sourceTree = "<group>"; };
+		702B0D81236FD720000C8F94 /* colbrowser.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = colbrowser.cxx; sourceTree = "<group>"; };
+		702B0D82236FD720000C8F94 /* doublebuffer.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = doublebuffer.cxx; sourceTree = "<group>"; };
+		702B0D83236FD720000C8F94 /* fractals.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fractals.cxx; sourceTree = "<group>"; };
+		702B0D84236FD720000C8F94 /* cube.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cube.cxx; sourceTree = "<group>"; };
+		702B0D85236FD720000C8F94 /* line_style.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = line_style.cxx; sourceTree = "<group>"; };
+		702B0D86236FD720000C8F94 /* glpuzzle.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = glpuzzle.cxx; sourceTree = "<group>"; };
+		702B0D87236FD720000C8F94 /* icon.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = icon.cxx; sourceTree = "<group>"; };
+		702B0D88236FD720000C8F94 /* tile.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tile.cxx; sourceTree = "<group>"; };
+		702B0D89236FD720000C8F94 /* radio.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = radio.cxx; sourceTree = "<group>"; };
+		702B0D8A236FD720000C8F94 /* cairo_test.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cairo_test.cxx; sourceTree = "<group>"; };
+		702B0D8B236FD720000C8F94 /* unittest_circles.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_circles.cxx; sourceTree = "<group>"; };
+		702B0D8C236FD720000C8F94 /* fracviewer.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fracviewer.cxx; sourceTree = "<group>"; };
+		702B0D8D236FD720000C8F94 /* CubeViewUI.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = CubeViewUI.fl; sourceTree = "<group>"; };
+		702B0D8E236FD720000C8F94 /* fullscreen.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fullscreen.cxx; sourceTree = "<group>"; };
+		702B0D8F236FD720000C8F94 /* valuators.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = valuators.cxx; sourceTree = "<group>"; };
+		702B0D90236FD720000C8F94 /* pixmap_browser.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pixmap_browser.cxx; sourceTree = "<group>"; };
+		702B0D91236FD720000C8F94 /* demo.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo.cxx; sourceTree = "<group>"; };
+		702B0D92236FD720000C8F94 /* tree.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = tree.fl; sourceTree = "<group>"; };
+		702B0D93236FD720000C8F94 /* unittest_rects.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_rects.cxx; sourceTree = "<group>"; };
+		702B0D94236FD720000C8F94 /* adjuster.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = adjuster.cxx; sourceTree = "<group>"; };
+		702B0D95236FD720000C8F94 /* editor.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = editor.cxx; sourceTree = "<group>"; };
+		702B0D96236FD720000C8F94 /* subwindow.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = subwindow.cxx; sourceTree = "<group>"; };
+		702B0D97236FD720000C8F94 /* rotated_text.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotated_text.cxx; sourceTree = "<group>"; };
+		702B0D98236FD720000C8F94 /* fast_slow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fast_slow.h; sourceTree = "<group>"; };
+		702B0D99236FD720000C8F94 /* input_choice.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = input_choice.cxx; sourceTree = "<group>"; };
+		702B0D9A236FD720000C8F94 /* valuators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valuators.h; sourceTree = "<group>"; };
+		702B0D9B236FD720000C8F94 /* unittests.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittests.cxx; sourceTree = "<group>"; };
+		702B0D9C236FD720000C8F94 /* connect.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connect.cxx; sourceTree = "<group>"; };
+		702B0D9D236FD720000C8F94 /* CubeViewUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeViewUI.h; sourceTree = "<group>"; };
+		702B0D9E236FD720000C8F94 /* shape.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shape.cxx; sourceTree = "<group>"; };
+		702B0D9F236FD720000C8F94 /* preferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = preferences.h; sourceTree = "<group>"; };
+		702B0DA0236FD720000C8F94 /* tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		702B0DA1236FD720000C8F94 /* threads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threads.h; sourceTree = "<group>"; };
+		702B0DA2236FD720000C8F94 /* symbols.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = symbols.cxx; sourceTree = "<group>"; };
+		702B0DA3236FD720000C8F94 /* label.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = label.cxx; sourceTree = "<group>"; };
+		702B0DA5236FD720000C8F94 /* white_1.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = white_1.xbm; sourceTree = "<group>"; };
+		702B0DA6236FD720000C8F94 /* white_2.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = white_2.xbm; sourceTree = "<group>"; };
+		702B0DA7236FD720000C8F94 /* white_3.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = white_3.xbm; sourceTree = "<group>"; };
+		702B0DA8236FD720000C8F94 /* white_4.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = white_4.xbm; sourceTree = "<group>"; };
+		702B0DA9236FD720000C8F94 /* green.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = green.xpm; sourceTree = "<group>"; };
+		702B0DAA236FD720000C8F94 /* porsche1.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = porsche1.xpm; sourceTree = "<group>"; };
+		702B0DAB236FD720000C8F94 /* magenta.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = magenta.xpm; sourceTree = "<group>"; };
+		702B0DAC236FD720000C8F94 /* yellow_bomb.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = yellow_bomb.xpm; sourceTree = "<group>"; };
+		702B0DAD236FD720000C8F94 /* cyan_bomb.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = cyan_bomb.xpm; sourceTree = "<group>"; };
+		702B0DAE236FD720000C8F94 /* red.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = red.xpm; sourceTree = "<group>"; };
+		702B0DAF236FD720000C8F94 /* cyan.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = cyan.xpm; sourceTree = "<group>"; };
+		702B0DB0236FD720000C8F94 /* porsche.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = porsche.xpm; sourceTree = "<group>"; };
+		702B0DB1236FD720000C8F94 /* blue_bomb.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = blue_bomb.xpm; sourceTree = "<group>"; };
+		702B0DB2236FD721000C8F94 /* whiteking_4.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = whiteking_4.xbm; sourceTree = "<group>"; };
+		702B0DB3236FD721000C8F94 /* gray.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = gray.xpm; sourceTree = "<group>"; };
+		702B0DB4236FD721000C8F94 /* blackking_3.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = blackking_3.xbm; sourceTree = "<group>"; };
+		702B0DB5236FD721000C8F94 /* gray_bomb.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = gray_bomb.xpm; sourceTree = "<group>"; };
+		702B0DB6236FD721000C8F94 /* blackking_2.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = blackking_2.xbm; sourceTree = "<group>"; };
+		702B0DB7236FD721000C8F94 /* black_4.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = black_4.xbm; sourceTree = "<group>"; };
+		702B0DB8236FD721000C8F94 /* green_bomb.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = green_bomb.xpm; sourceTree = "<group>"; };
+		702B0DB9236FD721000C8F94 /* sudoku.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = sudoku.xbm; sourceTree = "<group>"; };
+		702B0DBA236FD721000C8F94 /* blackking_1.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = blackking_1.xbm; sourceTree = "<group>"; };
+		702B0DBB236FD721000C8F94 /* whiteking_2.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = whiteking_2.xbm; sourceTree = "<group>"; };
+		702B0DBC236FD721000C8F94 /* black_3.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = black_3.xbm; sourceTree = "<group>"; };
+		702B0DBD236FD721000C8F94 /* red_bomb.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = red_bomb.xpm; sourceTree = "<group>"; };
+		702B0DBE236FD721000C8F94 /* blast.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = blast.xpm; sourceTree = "<group>"; };
+		702B0DBF236FD721000C8F94 /* black_2.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = black_2.xbm; sourceTree = "<group>"; };
+		702B0DC0236FD721000C8F94 /* blackking_4.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = blackking_4.xbm; sourceTree = "<group>"; };
+		702B0DC1236FD721000C8F94 /* whiteking_3.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = whiteking_3.xbm; sourceTree = "<group>"; };
+		702B0DC2236FD721000C8F94 /* whiteking_1.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = whiteking_1.xbm; sourceTree = "<group>"; };
+		702B0DC3236FD721000C8F94 /* black_1.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = black_1.xbm; sourceTree = "<group>"; };
+		702B0DC4236FD721000C8F94 /* tile.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = tile.xpm; sourceTree = "<group>"; };
+		702B0DC5236FD721000C8F94 /* magenta_bomb.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = magenta_bomb.xpm; sourceTree = "<group>"; };
+		702B0DC6236FD721000C8F94 /* yellow.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = yellow.xpm; sourceTree = "<group>"; };
+		702B0DC7236FD721000C8F94 /* srs.xbm */ = {isa = PBXFileReference; lastKnownFileType = text; path = srs.xbm; sourceTree = "<group>"; };
+		702B0DC8236FD721000C8F94 /* blue.xpm */ = {isa = PBXFileReference; lastKnownFileType = text; path = blue.xpm; sourceTree = "<group>"; };
+		702B0DC9236FD721000C8F94 /* mandelbrot.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mandelbrot.cxx; sourceTree = "<group>"; };
+		702B0DCA236FD721000C8F94 /* windowfocus.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = windowfocus.cxx; sourceTree = "<group>"; };
+		702B0DCB236FD721000C8F94 /* valuators.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = valuators.fl; sourceTree = "<group>"; };
+		702B0DCC236FD721000C8F94 /* tabs.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = tabs.fl; sourceTree = "<group>"; };
+		702B0DCD236FD721000C8F94 /* CubeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeView.h; sourceTree = "<group>"; };
+		702B0DCE236FD721000C8F94 /* mandelbrot_ui.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mandelbrot_ui.cxx; sourceTree = "<group>"; };
+		702B0DCF236FD721000C8F94 /* mandelbrot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mandelbrot.h; sourceTree = "<group>"; };
+		702B0DD0236FD721000C8F94 /* boxtype.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = boxtype.cxx; sourceTree = "<group>"; };
+		702B0DD1236FD721000C8F94 /* pixmap.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pixmap.cxx; sourceTree = "<group>"; };
+		702B0DD2236FD721000C8F94 /* unittest_images.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_images.cxx; sourceTree = "<group>"; };
+		702B0DD3236FD721000C8F94 /* resize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resize.h; sourceTree = "<group>"; };
+		702B0DD4236FD721000C8F94 /* output.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = output.cxx; sourceTree = "<group>"; };
+		702B0DD5236FD721000C8F94 /* file_chooser.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = file_chooser.cxx; sourceTree = "<group>"; };
+		702B0DD6236FD721000C8F94 /* hello.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello.cxx; sourceTree = "<group>"; };
+		702B0DD7236FD721000C8F94 /* tree.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cxx; sourceTree = "<group>"; };
+		702B0DD8236FD721000C8F94 /* sudokurc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sudokurc.h; sourceTree = "<group>"; };
+		702B0DD9236FD721000C8F94 /* offscreen.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = offscreen.cxx; sourceTree = "<group>"; };
+		702B0DDA236FD721000C8F94 /* CubeMain.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CubeMain.cxx; sourceTree = "<group>"; };
+		702B0DDB236FD721000C8F94 /* device.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = device.cxx; sourceTree = "<group>"; };
+		702B0DDC236FD721000C8F94 /* twowin.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twowin.cxx; sourceTree = "<group>"; };
+		702B0DDD236FD721000C8F94 /* clock.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = clock.cxx; sourceTree = "<group>"; };
+		702B0DDE236FD721000C8F94 /* pack.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pack.cxx; sourceTree = "<group>"; };
+		702B0DDF236FD721000C8F94 /* tabs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabs.h; sourceTree = "<group>"; };
+		702B0DE0236FD721000C8F94 /* radio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radio.h; sourceTree = "<group>"; };
+		702B0DE1236FD721000C8F94 /* keyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keyboard.h; sourceTree = "<group>"; };
+		702B0DE2236FD721000C8F94 /* unittest_scrollbarsize.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_scrollbarsize.cxx; sourceTree = "<group>"; };
+		702B0DE3236FD721000C8F94 /* iconize.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iconize.cxx; sourceTree = "<group>"; };
+		702B0DE4236FD721000C8F94 /* menubar.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = menubar.cxx; sourceTree = "<group>"; };
+		702B0DE5236FD721000C8F94 /* buttons.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = buttons.cxx; sourceTree = "<group>"; };
+		702B0DE6236FD721000C8F94 /* keyboard_ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keyboard_ui.h; sourceTree = "<group>"; };
+		702B0DE7236FD721000C8F94 /* unittest_symbol.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_symbol.cxx; sourceTree = "<group>"; };
+		702B0DE8236FD721000C8F94 /* help.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = help.cxx; sourceTree = "<group>"; };
+		702B0DE9236FD721000C8F94 /* fonts.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fonts.cxx; sourceTree = "<group>"; };
+		702B0DEA236FD721000C8F94 /* checkers.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checkers.cxx; sourceTree = "<group>"; };
+		702B0DEB236FD721000C8F94 /* scroll.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scroll.cxx; sourceTree = "<group>"; };
+		702B0DEC236FD721000C8F94 /* preferences.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = preferences.cxx; sourceTree = "<group>"; };
+		702B0DED236FD721000C8F94 /* table.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = table.cxx; sourceTree = "<group>"; };
+		702B0DEE236FD721000C8F94 /* bitmap.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitmap.cxx; sourceTree = "<group>"; };
+		702B0DEF236FD721000C8F94 /* message.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = message.cxx; sourceTree = "<group>"; };
+		702B0DF0236FD721000C8F94 /* curve.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = curve.cxx; sourceTree = "<group>"; };
+		702B0DF1236FD721000C8F94 /* CubeViewUI.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CubeViewUI.cxx; sourceTree = "<group>"; };
+		702B0DF2236FD721000C8F94 /* resize.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = resize.fl; sourceTree = "<group>"; };
+		702B0DF3236FD721000C8F94 /* navigation.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = navigation.cxx; sourceTree = "<group>"; };
+		702B0DF4236FD721000C8F94 /* forms.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = forms.cxx; sourceTree = "<group>"; };
+		702B0DF5236FD721000C8F94 /* gl_overlay.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gl_overlay.cxx; sourceTree = "<group>"; };
+		702B0DF6236FD721000C8F94 /* image.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = image.cxx; sourceTree = "<group>"; };
+		702B0DF7236FD721000C8F94 /* unittest_points.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_points.cxx; sourceTree = "<group>"; };
+		702B0DF8236FD721000C8F94 /* unittest_about.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_about.cxx; sourceTree = "<group>"; };
+		702B0DF9236FD721000C8F94 /* native-filechooser.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "native-filechooser.cxx"; sourceTree = "<group>"; };
+		702B0DFA236FD721000C8F94 /* keyboard_ui.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = keyboard_ui.fl; sourceTree = "<group>"; };
+		702B0DFB236FD721000C8F94 /* fast_slow.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fast_slow.cxx; sourceTree = "<group>"; };
+		702B0DFC236FD721000C8F94 /* button.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = button.cxx; sourceTree = "<group>"; };
+		702B0DFD236FD721000C8F94 /* mandelbrot_ui.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = mandelbrot_ui.fl; sourceTree = "<group>"; };
+		702B0DFE236FD721000C8F94 /* input.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = input.cxx; sourceTree = "<group>"; };
+		702B0DFF236FD721000C8F94 /* overlay.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = overlay.cxx; sourceTree = "<group>"; };
+		702B0E00236FD721000C8F94 /* fast_slow.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = fast_slow.fl; sourceTree = "<group>"; };
+		702B0E01236FD721000C8F94 /* inactive.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = inactive.fl; sourceTree = "<group>"; };
+		702B0E02236FD721000C8F94 /* fracviewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fracviewer.h; sourceTree = "<group>"; };
+		702B0E03236FD721000C8F94 /* resize.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resize.cxx; sourceTree = "<group>"; };
+		702B0E04236FD721000C8F94 /* browser.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = browser.cxx; sourceTree = "<group>"; };
+		702B0E05236FD721000C8F94 /* mandelbrot_ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mandelbrot_ui.h; sourceTree = "<group>"; };
+		702B0E06236FD721000C8F94 /* inactive.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inactive.cxx; sourceTree = "<group>"; };
+		702B0E07236FD721000C8F94 /* inactive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inactive.h; sourceTree = "<group>"; };
+		702B0E08236FD721000C8F94 /* arc.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arc.cxx; sourceTree = "<group>"; };
+		702B0E09236FD721000C8F94 /* keyboard_ui.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = keyboard_ui.cxx; sourceTree = "<group>"; };
+		702B0E0A236FD721000C8F94 /* minimum.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minimum.cxx; sourceTree = "<group>"; };
+		702B0E0B236FD721000C8F94 /* color_chooser.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = color_chooser.cxx; sourceTree = "<group>"; };
+		702B0E0C236FD721000C8F94 /* radio.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = radio.fl; sourceTree = "<group>"; };
+		702B0E0E236FD753000C8F94 /* libfltk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfltk.a; sourceTree = "<group>"; };
+		702B0E0F236FD753000C8F94 /* libfltk_gl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfltk_gl.a; sourceTree = "<group>"; };
+		702B0E10236FD753000C8F94 /* libfltk_images.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_images.1.3.dylib; sourceTree = "<group>"; };
+		702B0E11236FD753000C8F94 /* libfltk_gl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_gl.dylib; sourceTree = "<group>"; };
+		702B0E12236FD753000C8F94 /* libfltk_forms.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_forms.1.3.dylib; sourceTree = "<group>"; };
+		702B0E13236FD753000C8F94 /* libfltk_images.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfltk_images.a; sourceTree = "<group>"; };
+		702B0E14236FD753000C8F94 /* libfltk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk.dylib; sourceTree = "<group>"; };
+		702B0E15236FD753000C8F94 /* libfltk_forms.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_forms.dylib; sourceTree = "<group>"; };
+		702B0E16236FD753000C8F94 /* libfltk.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk.1.3.dylib; sourceTree = "<group>"; };
+		702B0E17236FD753000C8F94 /* libfltk_gl.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_gl.1.3.dylib; sourceTree = "<group>"; };
+		702B0E18236FD753000C8F94 /* libfltk_forms.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfltk_forms.a; sourceTree = "<group>"; };
+		702B0E19236FD753000C8F94 /* libfltk_images.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfltk_images.dylib; sourceTree = "<group>"; };
 		706A609223675D1200490B6A /* FLTK Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FLTK Test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		706A609523675D1200490B6A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		706A609E23675EEE00490B6A /* INSTALL_RECEIPT.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = INSTALL_RECEIPT.json; sourceTree = "<group>"; };
@@ -354,151 +695,6 @@
 		706A61F323675EEF00490B6A /* minimum.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minimum.cxx; sourceTree = "<group>"; };
 		706A61F423675EEF00490B6A /* color_chooser.cxx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = color_chooser.cxx; sourceTree = "<group>"; };
 		706A61F523675EEF00490B6A /* radio.fl */ = {isa = PBXFileReference; lastKnownFileType = text; path = radio.fl; sourceTree = "<group>"; };
-		706A62042367601600490B6A /* glut.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = glut.H; sourceTree = "<group>"; };
-		706A62052367601600490B6A /* Fl_PNM_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_PNM_Image.H; sourceTree = "<group>"; };
-		706A62062367601600490B6A /* Fl_Radio_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Radio_Button.H; sourceTree = "<group>"; };
-		706A62072367601600490B6A /* Fl_Toggle_Round_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Toggle_Round_Button.H; sourceTree = "<group>"; };
-		706A62082367601600490B6A /* Fl_Text_Buffer.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Text_Buffer.H; sourceTree = "<group>"; };
-		706A62092367601600490B6A /* fl_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fl_types.h; sourceTree = "<group>"; };
-		706A620A2367601600490B6A /* Fl_Printer.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Printer.H; sourceTree = "<group>"; };
-		706A620B2367601600490B6A /* fl_utf8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fl_utf8.h; sourceTree = "<group>"; };
-		706A620C2367601600490B6A /* fl_draw.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_draw.H; sourceTree = "<group>"; };
-		706A620D2367601600490B6A /* Fl_Toggle_Light_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Toggle_Light_Button.H; sourceTree = "<group>"; };
-		706A620E2367601600490B6A /* Fl_Color_Chooser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Color_Chooser.H; sourceTree = "<group>"; };
-		706A620F2367601600490B6A /* fl_show_colormap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_show_colormap.H; sourceTree = "<group>"; };
-		706A62102367601600490B6A /* fl_show_input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_show_input.H; sourceTree = "<group>"; };
-		706A62112367601600490B6A /* Fl_Single_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Single_Window.H; sourceTree = "<group>"; };
-		706A62122367601600490B6A /* Fl_Shared_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Shared_Image.H; sourceTree = "<group>"; };
-		706A62132367601600490B6A /* Fl_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Input.H; sourceTree = "<group>"; };
-		706A62142367601600490B6A /* Fl_Export.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Export.H; sourceTree = "<group>"; };
-		706A62152367601600490B6A /* Fl_Round_Clock.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Round_Clock.H; sourceTree = "<group>"; };
-		706A62162367601600490B6A /* Fl_Tree_Item.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tree_Item.H; sourceTree = "<group>"; };
-		706A62172367601600490B6A /* gl_draw.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gl_draw.H; sourceTree = "<group>"; };
-		706A62182367601600490B6A /* Fl_Plugin.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Plugin.H; sourceTree = "<group>"; };
-		706A62192367601600490B6A /* Fl_Fill_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Fill_Slider.H; sourceTree = "<group>"; };
-		706A621A2367601600490B6A /* Fl_Device.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Device.H; sourceTree = "<group>"; };
-		706A621B2367601600490B6A /* Fl_Image_Surface.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Image_Surface.H; sourceTree = "<group>"; };
-		706A621C2367601600490B6A /* Fl_Menu_.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_.H; sourceTree = "<group>"; };
-		706A621D2367601600490B6A /* Fl_Value_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Value_Input.H; sourceTree = "<group>"; };
-		706A621E2367601600490B6A /* Fl_Positioner.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Positioner.H; sourceTree = "<group>"; };
-		706A621F2367601600490B6A /* Fl_Roller.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Roller.H; sourceTree = "<group>"; };
-		706A62202367601600490B6A /* Fl_Counter.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Counter.H; sourceTree = "<group>"; };
-		706A62212367601600490B6A /* Fl_Multi_Label.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Multi_Label.H; sourceTree = "<group>"; };
-		706A62222367601600490B6A /* Fl_Scroll.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Scroll.H; sourceTree = "<group>"; };
-		706A62232367601600490B6A /* Fl_Hor_Fill_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hor_Fill_Slider.H; sourceTree = "<group>"; };
-		706A62242367601600490B6A /* Fl_Hor_Value_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hor_Value_Slider.H; sourceTree = "<group>"; };
-		706A62252367601600490B6A /* abi-version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "abi-version.h"; sourceTree = "<group>"; };
-		706A62262367601600490B6A /* Fl_Gl_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Gl_Window.H; sourceTree = "<group>"; };
-		706A62272367601600490B6A /* Fl_Multiline_Output.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Multiline_Output.H; sourceTree = "<group>"; };
-		706A62282367601600490B6A /* Fl_Input_.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Input_.H; sourceTree = "<group>"; };
-		706A62292367601600490B6A /* Fl_Widget.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Widget.H; sourceTree = "<group>"; };
-		706A622A2367601600490B6A /* Fl_PNG_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_PNG_Image.H; sourceTree = "<group>"; };
-		706A622B2367601600490B6A /* Fl_Float_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Float_Input.H; sourceTree = "<group>"; };
-		706A622C2367601600490B6A /* Fl_File_Chooser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_File_Chooser.H; sourceTree = "<group>"; };
-		706A622D2367601600490B6A /* Fl_Double_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Double_Window.H; sourceTree = "<group>"; };
-		706A622E2367601600490B6A /* Fl_Input_Choice.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Input_Choice.H; sourceTree = "<group>"; };
-		706A622F2367601600490B6A /* Fl_Native_File_Chooser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Native_File_Chooser.H; sourceTree = "<group>"; };
-		706A62302367601600490B6A /* Fl_Int_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Int_Input.H; sourceTree = "<group>"; };
-		706A62312367601600490B6A /* Fl_Sys_Menu_Bar.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Sys_Menu_Bar.H; sourceTree = "<group>"; };
-		706A62322367601600490B6A /* Fl_Menu.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu.H; sourceTree = "<group>"; };
-		706A62332367601600490B6A /* Fl_Help_Dialog.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Help_Dialog.H; sourceTree = "<group>"; };
-		706A62342367601600490B6A /* Fl_Choice.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Choice.H; sourceTree = "<group>"; };
-		706A62352367601600490B6A /* Fl_Menu_Bar.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_Bar.H; sourceTree = "<group>"; };
-		706A62362367601600490B6A /* Fl_Select_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Select_Browser.H; sourceTree = "<group>"; };
-		706A62372367601600490B6A /* Fl_Multi_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Multi_Browser.H; sourceTree = "<group>"; };
-		706A62382367601600490B6A /* dirent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dirent.h; sourceTree = "<group>"; };
-		706A62392367601600490B6A /* Fl_Menu_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_Window.H; sourceTree = "<group>"; };
-		706A623A2367601600490B6A /* fl_message.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_message.H; sourceTree = "<group>"; };
-		706A623B2367601600490B6A /* Fl_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Window.H; sourceTree = "<group>"; };
-		706A623C2367601600490B6A /* Fl_JPEG_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_JPEG_Image.H; sourceTree = "<group>"; };
-		706A623D2367601600490B6A /* Fl_Cairo.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Cairo.H; sourceTree = "<group>"; };
-		706A623E2367601600490B6A /* Fl_Fill_Dial.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Fill_Dial.H; sourceTree = "<group>"; };
-		706A623F2367601600490B6A /* Fl_Preferences.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Preferences.H; sourceTree = "<group>"; };
-		706A62402367601600490B6A /* Fl_File_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_File_Browser.H; sourceTree = "<group>"; };
-		706A62412367601600490B6A /* Fl_Box.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Box.H; sourceTree = "<group>"; };
-		706A62422367601600490B6A /* Fl_Output.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Output.H; sourceTree = "<group>"; };
-		706A62432367601600490B6A /* Fl_Multiline_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Multiline_Input.H; sourceTree = "<group>"; };
-		706A62442367601600490B6A /* Fl_Hor_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hor_Slider.H; sourceTree = "<group>"; };
-		706A62452367601600490B6A /* Fl_Chart.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Chart.H; sourceTree = "<group>"; };
-		706A62462367601600490B6A /* Fl_Tabs.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tabs.H; sourceTree = "<group>"; };
-		706A62472367601600490B6A /* win32.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = win32.H; sourceTree = "<group>"; };
-		706A62482367601600490B6A /* Fl_Repeat_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Repeat_Button.H; sourceTree = "<group>"; };
-		706A62492367601600490B6A /* Enumerations.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enumerations.H; sourceTree = "<group>"; };
-		706A624A2367601600490B6A /* Fl_Value_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Value_Slider.H; sourceTree = "<group>"; };
-		706A624B2367601600490B6A /* Fl_XBM_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_XBM_Image.H; sourceTree = "<group>"; };
-		706A624C2367601600490B6A /* Fl_Tree.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tree.H; sourceTree = "<group>"; };
-		706A624D2367601600490B6A /* Fl_Copy_Surface.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Copy_Surface.H; sourceTree = "<group>"; };
-		706A624E2367601600490B6A /* Fl_Dial.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Dial.H; sourceTree = "<group>"; };
-		706A624F2367601600490B6A /* Fl_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Browser.H; sourceTree = "<group>"; };
-		706A62502367601600490B6A /* Fl_Text_Editor.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Text_Editor.H; sourceTree = "<group>"; };
-		706A62512367601600490B6A /* Fl_Table.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Table.H; sourceTree = "<group>"; };
-		706A62522367601600490B6A /* glu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glu.h; sourceTree = "<group>"; };
-		706A62532367601600490B6A /* Fl_Overlay_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Overlay_Window.H; sourceTree = "<group>"; };
-		706A62542367601600490B6A /* Fl.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl.H; sourceTree = "<group>"; };
-		706A62552367601600490B6A /* Fl_Valuator.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Valuator.H; sourceTree = "<group>"; };
-		706A62562367601600490B6A /* Fl_Line_Dial.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Line_Dial.H; sourceTree = "<group>"; };
-		706A62572367601600490B6A /* Fl_Spinner.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Spinner.H; sourceTree = "<group>"; };
-		706A62582367601600490B6A /* Fl_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Slider.H; sourceTree = "<group>"; };
-		706A62592367601600490B6A /* Fl_GIF_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_GIF_Image.H; sourceTree = "<group>"; };
-		706A625A2367601600490B6A /* Fl_Scrollbar.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Scrollbar.H; sourceTree = "<group>"; };
-		706A625B2367601600490B6A /* fl_ask.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fl_ask.H; sourceTree = "<group>"; };
-		706A625C2367601600490B6A /* Fl_RGB_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_RGB_Image.H; sourceTree = "<group>"; };
-		706A625D2367601600490B6A /* Fl_PostScript.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_PostScript.H; sourceTree = "<group>"; };
-		706A625E2367601600490B6A /* Fl_FormsBitmap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_FormsBitmap.H; sourceTree = "<group>"; };
-		706A625F2367601600490B6A /* Fl_Adjuster.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Adjuster.H; sourceTree = "<group>"; };
-		706A62602367601600490B6A /* names.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = names.h; sourceTree = "<group>"; };
-		706A62612367601600490B6A /* Fl_Value_Output.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Value_Output.H; sourceTree = "<group>"; };
-		706A62622367601600490B6A /* Fl_Table_Row.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Table_Row.H; sourceTree = "<group>"; };
-		706A62632367601600490B6A /* Fl_Pixmap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Pixmap.H; sourceTree = "<group>"; };
-		706A62642367601600490B6A /* Fl_Wizard.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Wizard.H; sourceTree = "<group>"; };
-		706A62652367601600490B6A /* Fl_Hor_Nice_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hor_Nice_Slider.H; sourceTree = "<group>"; };
-		706A62662367601600490B6A /* Fl_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Button.H; sourceTree = "<group>"; };
-		706A62672367601600490B6A /* Fl_Menu_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_Button.H; sourceTree = "<group>"; };
-		706A62682367601600490B6A /* Fl_Cairo_Window.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Cairo_Window.H; sourceTree = "<group>"; };
-		706A62692367601600490B6A /* Fl_Group.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Group.H; sourceTree = "<group>"; };
-		706A626A2367601600490B6A /* Fl_Timer.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Timer.H; sourceTree = "<group>"; };
-		706A626B2367601600490B6A /* Fl_File_Icon.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_File_Icon.H; sourceTree = "<group>"; };
-		706A626C2367601600490B6A /* Fl_Nice_Slider.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Nice_Slider.H; sourceTree = "<group>"; };
-		706A626D2367601600490B6A /* Fl_File_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_File_Input.H; sourceTree = "<group>"; };
-		706A626E2367601600490B6A /* Fl_Help_View.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Help_View.H; sourceTree = "<group>"; };
-		706A626F2367601600490B6A /* Fl_Object.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Object.H; sourceTree = "<group>"; };
-		706A62702367601600490B6A /* gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
-		706A62712367601600490B6A /* Fl_Check_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Check_Button.H; sourceTree = "<group>"; };
-		706A62722367601600490B6A /* math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
-		706A62732367601600490B6A /* gl2opengl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl2opengl.h; sourceTree = "<group>"; };
-		706A62742367601600490B6A /* Fl_Paged_Device.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Paged_Device.H; sourceTree = "<group>"; };
-		706A62752367601600490B6A /* Fl_Tree_Item_Array.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tree_Item_Array.H; sourceTree = "<group>"; };
-		706A62762367601600490B6A /* Fl_Browser_.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Browser_.H; sourceTree = "<group>"; };
-		706A62772367601600490B6A /* Fl_Return_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Return_Button.H; sourceTree = "<group>"; };
-		706A62782367601600490B6A /* Fl_Round_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Round_Button.H; sourceTree = "<group>"; };
-		706A62792367601600490B6A /* Fl_XPM_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_XPM_Image.H; sourceTree = "<group>"; };
-		706A627A2367601600490B6A /* Fl_Secret_Input.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Secret_Input.H; sourceTree = "<group>"; };
-		706A627B2367601600490B6A /* Fl_Check_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Check_Browser.H; sourceTree = "<group>"; };
-		706A627C2367601600490B6A /* Fl_Hold_Browser.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Hold_Browser.H; sourceTree = "<group>"; };
-		706A627D2367601600490B6A /* Fl_Light_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Light_Button.H; sourceTree = "<group>"; };
-		706A627E2367601600490B6A /* Fl_Toggle_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Toggle_Button.H; sourceTree = "<group>"; };
-		706A627F2367601600490B6A /* Fl_Tile.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tile.H; sourceTree = "<group>"; };
-		706A62802367601600490B6A /* Fl_FormsPixmap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_FormsPixmap.H; sourceTree = "<group>"; };
-		706A62812367601600490B6A /* forms.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = forms.H; sourceTree = "<group>"; };
-		706A62822367601600490B6A /* mac.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mac.H; sourceTree = "<group>"; };
-		706A62832367601600490B6A /* Fl_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Image.H; sourceTree = "<group>"; };
-		706A62842367601600490B6A /* Fl_Clock.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Clock.H; sourceTree = "<group>"; };
-		706A62852367601600490B6A /* Fl_Bitmap.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Bitmap.H; sourceTree = "<group>"; };
-		706A62862367601600490B6A /* filename.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = filename.H; sourceTree = "<group>"; };
-		706A62872367601600490B6A /* Fl_Progress.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Progress.H; sourceTree = "<group>"; };
-		706A62882367601600490B6A /* Fl_Tooltip.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tooltip.H; sourceTree = "<group>"; };
-		706A62892367601600490B6A /* Fl_Simple_Counter.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Simple_Counter.H; sourceTree = "<group>"; };
-		706A628A2367601600490B6A /* Fl_Text_Display.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Text_Display.H; sourceTree = "<group>"; };
-		706A628B2367601600490B6A /* Fl_Free.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Free.H; sourceTree = "<group>"; };
-		706A628C2367601600490B6A /* Fl_Radio_Round_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Radio_Round_Button.H; sourceTree = "<group>"; };
-		706A628D2367601600490B6A /* x.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = x.H; sourceTree = "<group>"; };
-		706A628E2367601600490B6A /* platform.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = platform.H; sourceTree = "<group>"; };
-		706A628F2367601600490B6A /* Fl_Tree_Prefs.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tree_Prefs.H; sourceTree = "<group>"; };
-		706A62902367601600490B6A /* Fl_Menu_Item.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Menu_Item.H; sourceTree = "<group>"; };
-		706A62912367601600490B6A /* Fl_BMP_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_BMP_Image.H; sourceTree = "<group>"; };
-		706A62922367601600490B6A /* Fl_Tiled_Image.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Tiled_Image.H; sourceTree = "<group>"; };
-		706A62932367601600490B6A /* Fl_Pack.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Pack.H; sourceTree = "<group>"; };
-		706A62942367601600490B6A /* Fl_Radio_Light_Button.H */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fl_Radio_Light_Button.H; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,6 +708,491 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		702B0CB3236FD720000C8F94 /* fltk */ = {
+			isa = PBXGroup;
+			children = (
+				702B0CB4236FD720000C8F94 /* 1.3.5 */,
+			);
+			name = fltk;
+			path = ../../../../../../../usr/local/Cellar/fltk;
+			sourceTree = "<group>";
+		};
+		702B0CB4236FD720000C8F94 /* 1.3.5 */ = {
+			isa = PBXGroup;
+			children = (
+				702B0CB5236FD720000C8F94 /* INSTALL_RECEIPT.json */,
+				702B0CB6236FD720000C8F94 /* bin */,
+				702B0CB9236FD720000C8F94 /* .brew */,
+				702B0CBB236FD720000C8F94 /* CHANGES */,
+				702B0CBC236FD720000C8F94 /* include */,
+				702B0D4F236FD720000C8F94 /* README */,
+				702B0D50236FD720000C8F94 /* COPYING */,
+				702B0D51236FD720000C8F94 /* lib */,
+				702B0D5E236FD720000C8F94 /* share */,
+			);
+			path = 1.3.5;
+			sourceTree = "<group>";
+		};
+		702B0CB6236FD720000C8F94 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				702B0CB7236FD720000C8F94 /* fltk-config */,
+				702B0CB8236FD720000C8F94 /* fluid */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		702B0CB9236FD720000C8F94 /* .brew */ = {
+			isa = PBXGroup;
+			children = (
+				702B0CBA236FD720000C8F94 /* fltk.rb */,
+			);
+			path = .brew;
+			sourceTree = "<group>";
+		};
+		702B0CBC236FD720000C8F94 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				702B0CBD236FD720000C8F94 /* FL */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		702B0CBD236FD720000C8F94 /* FL */ = {
+			isa = PBXGroup;
+			children = (
+				702B0CBE236FD720000C8F94 /* glut.H */,
+				702B0CBF236FD720000C8F94 /* Fl_PNM_Image.H */,
+				702B0CC0236FD720000C8F94 /* Fl_Radio_Button.H */,
+				702B0CC1236FD720000C8F94 /* Fl_Toggle_Round_Button.H */,
+				702B0CC2236FD720000C8F94 /* Fl_Text_Buffer.H */,
+				702B0CC3236FD720000C8F94 /* fl_types.h */,
+				702B0CC4236FD720000C8F94 /* Fl_Printer.H */,
+				702B0CC5236FD720000C8F94 /* fl_utf8.h */,
+				702B0CC6236FD720000C8F94 /* fl_draw.H */,
+				702B0CC7236FD720000C8F94 /* Fl_Toggle_Light_Button.H */,
+				702B0CC8236FD720000C8F94 /* Fl_Color_Chooser.H */,
+				702B0CC9236FD720000C8F94 /* fl_show_colormap.H */,
+				702B0CCA236FD720000C8F94 /* fl_show_input.H */,
+				702B0CCB236FD720000C8F94 /* Fl_Single_Window.H */,
+				702B0CCC236FD720000C8F94 /* Fl_Shared_Image.H */,
+				702B0CCD236FD720000C8F94 /* Fl_Input.H */,
+				702B0CCE236FD720000C8F94 /* Fl_Export.H */,
+				702B0CCF236FD720000C8F94 /* Fl_Round_Clock.H */,
+				702B0CD0236FD720000C8F94 /* Fl_Tree_Item.H */,
+				702B0CD1236FD720000C8F94 /* gl_draw.H */,
+				702B0CD2236FD720000C8F94 /* Fl_Plugin.H */,
+				702B0CD3236FD720000C8F94 /* Fl_Fill_Slider.H */,
+				702B0CD4236FD720000C8F94 /* Fl_Device.H */,
+				702B0CD5236FD720000C8F94 /* Fl_Image_Surface.H */,
+				702B0CD6236FD720000C8F94 /* Fl_Menu_.H */,
+				702B0CD7236FD720000C8F94 /* Fl_Value_Input.H */,
+				702B0CD8236FD720000C8F94 /* Fl_Positioner.H */,
+				702B0CD9236FD720000C8F94 /* Fl_Roller.H */,
+				702B0CDA236FD720000C8F94 /* Fl_Counter.H */,
+				702B0CDB236FD720000C8F94 /* Fl_Multi_Label.H */,
+				702B0CDC236FD720000C8F94 /* Fl_Scroll.H */,
+				702B0CDD236FD720000C8F94 /* Fl_Hor_Fill_Slider.H */,
+				702B0CDE236FD720000C8F94 /* Fl_Hor_Value_Slider.H */,
+				702B0CDF236FD720000C8F94 /* abi-version.h */,
+				702B0CE0236FD720000C8F94 /* Fl_Gl_Window.H */,
+				702B0CE1236FD720000C8F94 /* Fl_Multiline_Output.H */,
+				702B0CE2236FD720000C8F94 /* Fl_Input_.H */,
+				702B0CE3236FD720000C8F94 /* Fl_Widget.H */,
+				702B0CE4236FD720000C8F94 /* Fl_PNG_Image.H */,
+				702B0CE5236FD720000C8F94 /* Fl_Float_Input.H */,
+				702B0CE6236FD720000C8F94 /* Fl_File_Chooser.H */,
+				702B0CE7236FD720000C8F94 /* Fl_Double_Window.H */,
+				702B0CE8236FD720000C8F94 /* Fl_Input_Choice.H */,
+				702B0CE9236FD720000C8F94 /* Fl_Native_File_Chooser.H */,
+				702B0CEA236FD720000C8F94 /* Fl_Int_Input.H */,
+				702B0CEB236FD720000C8F94 /* Fl_Sys_Menu_Bar.H */,
+				702B0CEC236FD720000C8F94 /* Fl_Menu.H */,
+				702B0CED236FD720000C8F94 /* Fl_Help_Dialog.H */,
+				702B0CEE236FD720000C8F94 /* Fl_Choice.H */,
+				702B0CEF236FD720000C8F94 /* Fl_Menu_Bar.H */,
+				702B0CF0236FD720000C8F94 /* Fl_Select_Browser.H */,
+				702B0CF1236FD720000C8F94 /* Fl_Multi_Browser.H */,
+				702B0CF2236FD720000C8F94 /* dirent.h */,
+				702B0CF3236FD720000C8F94 /* Fl_Menu_Window.H */,
+				702B0CF4236FD720000C8F94 /* fl_message.H */,
+				702B0CF5236FD720000C8F94 /* Fl_Window.H */,
+				702B0CF6236FD720000C8F94 /* Fl_JPEG_Image.H */,
+				702B0CF7236FD720000C8F94 /* Fl_Cairo.H */,
+				702B0CF8236FD720000C8F94 /* Fl_Fill_Dial.H */,
+				702B0CF9236FD720000C8F94 /* Fl_Preferences.H */,
+				702B0CFA236FD720000C8F94 /* Fl_File_Browser.H */,
+				702B0CFB236FD720000C8F94 /* Fl_Box.H */,
+				702B0CFC236FD720000C8F94 /* Fl_Output.H */,
+				702B0CFD236FD720000C8F94 /* Fl_Multiline_Input.H */,
+				702B0CFE236FD720000C8F94 /* Fl_Hor_Slider.H */,
+				702B0CFF236FD720000C8F94 /* Fl_Chart.H */,
+				702B0D00236FD720000C8F94 /* Fl_Tabs.H */,
+				702B0D01236FD720000C8F94 /* win32.H */,
+				702B0D02236FD720000C8F94 /* Fl_Repeat_Button.H */,
+				702B0D03236FD720000C8F94 /* Enumerations.H */,
+				702B0D04236FD720000C8F94 /* Fl_Value_Slider.H */,
+				702B0D05236FD720000C8F94 /* Fl_XBM_Image.H */,
+				702B0D06236FD720000C8F94 /* Fl_Tree.H */,
+				702B0D07236FD720000C8F94 /* Fl_Copy_Surface.H */,
+				702B0D08236FD720000C8F94 /* Fl_Dial.H */,
+				702B0D09236FD720000C8F94 /* Fl_Browser.H */,
+				702B0D0A236FD720000C8F94 /* Fl_Text_Editor.H */,
+				702B0D0B236FD720000C8F94 /* Fl_Table.H */,
+				702B0D0C236FD720000C8F94 /* glu.h */,
+				702B0D0D236FD720000C8F94 /* Fl_Overlay_Window.H */,
+				702B0D0E236FD720000C8F94 /* Fl.H */,
+				702B0D0F236FD720000C8F94 /* Fl_Valuator.H */,
+				702B0D10236FD720000C8F94 /* Fl_Line_Dial.H */,
+				702B0D11236FD720000C8F94 /* Fl_Spinner.H */,
+				702B0D12236FD720000C8F94 /* Fl_Slider.H */,
+				702B0D13236FD720000C8F94 /* Fl_GIF_Image.H */,
+				702B0D14236FD720000C8F94 /* Fl_Scrollbar.H */,
+				702B0D15236FD720000C8F94 /* fl_ask.H */,
+				702B0D16236FD720000C8F94 /* Fl_RGB_Image.H */,
+				702B0D17236FD720000C8F94 /* Fl_PostScript.H */,
+				702B0D18236FD720000C8F94 /* Fl_FormsBitmap.H */,
+				702B0D19236FD720000C8F94 /* Fl_Adjuster.H */,
+				702B0D1A236FD720000C8F94 /* names.h */,
+				702B0D1B236FD720000C8F94 /* Fl_Value_Output.H */,
+				702B0D1C236FD720000C8F94 /* Fl_Table_Row.H */,
+				702B0D1D236FD720000C8F94 /* Fl_Pixmap.H */,
+				702B0D1E236FD720000C8F94 /* Fl_Wizard.H */,
+				702B0D1F236FD720000C8F94 /* Fl_Hor_Nice_Slider.H */,
+				702B0D20236FD720000C8F94 /* Fl_Button.H */,
+				702B0D21236FD720000C8F94 /* Fl_Menu_Button.H */,
+				702B0D22236FD720000C8F94 /* Fl_Cairo_Window.H */,
+				702B0D23236FD720000C8F94 /* Fl_Group.H */,
+				702B0D24236FD720000C8F94 /* Fl_Timer.H */,
+				702B0D25236FD720000C8F94 /* Fl_File_Icon.H */,
+				702B0D26236FD720000C8F94 /* Fl_Nice_Slider.H */,
+				702B0D27236FD720000C8F94 /* Fl_File_Input.H */,
+				702B0D28236FD720000C8F94 /* Fl_Help_View.H */,
+				702B0D29236FD720000C8F94 /* Fl_Object.H */,
+				702B0D2A236FD720000C8F94 /* gl.h */,
+				702B0D2B236FD720000C8F94 /* Fl_Check_Button.H */,
+				702B0D2C236FD720000C8F94 /* math.h */,
+				702B0D2D236FD720000C8F94 /* gl2opengl.h */,
+				702B0D2E236FD720000C8F94 /* Fl_Paged_Device.H */,
+				702B0D2F236FD720000C8F94 /* Fl_Tree_Item_Array.H */,
+				702B0D30236FD720000C8F94 /* Fl_Browser_.H */,
+				702B0D31236FD720000C8F94 /* Fl_Return_Button.H */,
+				702B0D32236FD720000C8F94 /* Fl_Round_Button.H */,
+				702B0D33236FD720000C8F94 /* Fl_XPM_Image.H */,
+				702B0D34236FD720000C8F94 /* Fl_Secret_Input.H */,
+				702B0D35236FD720000C8F94 /* Fl_Check_Browser.H */,
+				702B0D36236FD720000C8F94 /* Fl_Hold_Browser.H */,
+				702B0D37236FD720000C8F94 /* Fl_Light_Button.H */,
+				702B0D38236FD720000C8F94 /* Fl_Toggle_Button.H */,
+				702B0D39236FD720000C8F94 /* Fl_Tile.H */,
+				702B0D3A236FD720000C8F94 /* Fl_FormsPixmap.H */,
+				702B0D3B236FD720000C8F94 /* forms.H */,
+				702B0D3C236FD720000C8F94 /* mac.H */,
+				702B0D3D236FD720000C8F94 /* Fl_Image.H */,
+				702B0D3E236FD720000C8F94 /* Fl_Clock.H */,
+				702B0D3F236FD720000C8F94 /* Fl_Bitmap.H */,
+				702B0D40236FD720000C8F94 /* filename.H */,
+				702B0D41236FD720000C8F94 /* Fl_Progress.H */,
+				702B0D42236FD720000C8F94 /* Fl_Tooltip.H */,
+				702B0D43236FD720000C8F94 /* Fl_Simple_Counter.H */,
+				702B0D44236FD720000C8F94 /* Fl_Text_Display.H */,
+				702B0D45236FD720000C8F94 /* Fl_Free.H */,
+				702B0D46236FD720000C8F94 /* Fl_Radio_Round_Button.H */,
+				702B0D47236FD720000C8F94 /* x.H */,
+				702B0D48236FD720000C8F94 /* platform.H */,
+				702B0D49236FD720000C8F94 /* Fl_Tree_Prefs.H */,
+				702B0D4A236FD720000C8F94 /* Fl_Menu_Item.H */,
+				702B0D4B236FD720000C8F94 /* Fl_BMP_Image.H */,
+				702B0D4C236FD720000C8F94 /* Fl_Tiled_Image.H */,
+				702B0D4D236FD720000C8F94 /* Fl_Pack.H */,
+				702B0D4E236FD720000C8F94 /* Fl_Radio_Light_Button.H */,
+			);
+			path = FL;
+			sourceTree = "<group>";
+		};
+		702B0D51236FD720000C8F94 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D52236FD720000C8F94 /* libfltk.a */,
+				702B0D53236FD720000C8F94 /* libfltk_gl.a */,
+				702B0D54236FD720000C8F94 /* libfltk_images.1.3.dylib */,
+				702B0D55236FD720000C8F94 /* libfltk_gl.dylib */,
+				702B0D56236FD720000C8F94 /* libfltk_forms.1.3.dylib */,
+				702B0D57236FD720000C8F94 /* libfltk_images.a */,
+				702B0D58236FD720000C8F94 /* libfltk.dylib */,
+				702B0D59236FD720000C8F94 /* libfltk_forms.dylib */,
+				702B0D5A236FD720000C8F94 /* libfltk.1.3.dylib */,
+				702B0D5B236FD720000C8F94 /* libfltk_gl.1.3.dylib */,
+				702B0D5C236FD720000C8F94 /* libfltk_forms.a */,
+				702B0D5D236FD720000C8F94 /* libfltk_images.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		702B0D5E236FD720000C8F94 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D5F236FD720000C8F94 /* man */,
+				702B0D6A236FD720000C8F94 /* doc */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		702B0D5F236FD720000C8F94 /* man */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D60236FD720000C8F94 /* cat1 */,
+				702B0D63236FD720000C8F94 /* man3 */,
+				702B0D65236FD720000C8F94 /* man1 */,
+				702B0D68236FD720000C8F94 /* cat3 */,
+			);
+			path = man;
+			sourceTree = "<group>";
+		};
+		702B0D60236FD720000C8F94 /* cat1 */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D61236FD720000C8F94 /* fltk-config.0 */,
+				702B0D62236FD720000C8F94 /* fluid.0 */,
+			);
+			path = cat1;
+			sourceTree = "<group>";
+		};
+		702B0D63236FD720000C8F94 /* man3 */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D64236FD720000C8F94 /* fltk.3 */,
+			);
+			path = man3;
+			sourceTree = "<group>";
+		};
+		702B0D65236FD720000C8F94 /* man1 */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D66236FD720000C8F94 /* fltk-config.1 */,
+				702B0D67236FD720000C8F94 /* fluid.1 */,
+			);
+			path = man1;
+			sourceTree = "<group>";
+		};
+		702B0D68236FD720000C8F94 /* cat3 */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D69236FD720000C8F94 /* fltk.0 */,
+			);
+			path = cat3;
+			sourceTree = "<group>";
+		};
+		702B0D6A236FD720000C8F94 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D6B236FD720000C8F94 /* fltk */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		702B0D6B236FD720000C8F94 /* fltk */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D6C236FD720000C8F94 /* examples */,
+			);
+			path = fltk;
+			sourceTree = "<group>";
+		};
+		702B0D6C236FD720000C8F94 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				702B0D6D236FD720000C8F94 /* list_visuals.cxx */,
+				702B0D6E236FD720000C8F94 /* trackball.h */,
+				702B0D6F236FD720000C8F94 /* ask.cxx */,
+				702B0D70236FD720000C8F94 /* unittest_schemes.cxx */,
+				702B0D71236FD720000C8F94 /* CubeView.cxx */,
+				702B0D72236FD720000C8F94 /* tiled_image.cxx */,
+				702B0D73236FD720000C8F94 /* threads.cxx */,
+				702B0D74236FD720000C8F94 /* demo.menu */,
+				702B0D75236FD720000C8F94 /* animated.cxx */,
+				702B0D76236FD720000C8F94 /* utf8.cxx */,
+				702B0D77236FD720000C8F94 /* unittest_text.cxx */,
+				702B0D78236FD720000C8F94 /* unittest_lines.cxx */,
+				702B0D79236FD720000C8F94 /* keyboard.cxx */,
+				702B0D7A236FD720000C8F94 /* preferences.fl */,
+				702B0D7B236FD720000C8F94 /* resizebox.cxx */,
+				702B0D7C236FD720000C8F94 /* blocks.cxx */,
+				702B0D7D236FD720000C8F94 /* unittest_viewport.cxx */,
+				702B0D7E236FD720000C8F94 /* sudoku.cxx */,
+				702B0D7F236FD720000C8F94 /* cursor.cxx */,
+				702B0D80236FD720000C8F94 /* tabs.cxx */,
+				702B0D81236FD720000C8F94 /* colbrowser.cxx */,
+				702B0D82236FD720000C8F94 /* doublebuffer.cxx */,
+				702B0D83236FD720000C8F94 /* fractals.cxx */,
+				702B0D84236FD720000C8F94 /* cube.cxx */,
+				702B0D85236FD720000C8F94 /* line_style.cxx */,
+				702B0D86236FD720000C8F94 /* glpuzzle.cxx */,
+				702B0D87236FD720000C8F94 /* icon.cxx */,
+				702B0D88236FD720000C8F94 /* tile.cxx */,
+				702B0D89236FD720000C8F94 /* radio.cxx */,
+				702B0D8A236FD720000C8F94 /* cairo_test.cxx */,
+				702B0D8B236FD720000C8F94 /* unittest_circles.cxx */,
+				702B0D8C236FD720000C8F94 /* fracviewer.cxx */,
+				702B0D8D236FD720000C8F94 /* CubeViewUI.fl */,
+				702B0D8E236FD720000C8F94 /* fullscreen.cxx */,
+				702B0D8F236FD720000C8F94 /* valuators.cxx */,
+				702B0D90236FD720000C8F94 /* pixmap_browser.cxx */,
+				702B0D91236FD720000C8F94 /* demo.cxx */,
+				702B0D92236FD720000C8F94 /* tree.fl */,
+				702B0D93236FD720000C8F94 /* unittest_rects.cxx */,
+				702B0D94236FD720000C8F94 /* adjuster.cxx */,
+				702B0D95236FD720000C8F94 /* editor.cxx */,
+				702B0D96236FD720000C8F94 /* subwindow.cxx */,
+				702B0D97236FD720000C8F94 /* rotated_text.cxx */,
+				702B0D98236FD720000C8F94 /* fast_slow.h */,
+				702B0D99236FD720000C8F94 /* input_choice.cxx */,
+				702B0D9A236FD720000C8F94 /* valuators.h */,
+				702B0D9B236FD720000C8F94 /* unittests.cxx */,
+				702B0D9C236FD720000C8F94 /* connect.cxx */,
+				702B0D9D236FD720000C8F94 /* CubeViewUI.h */,
+				702B0D9E236FD720000C8F94 /* shape.cxx */,
+				702B0D9F236FD720000C8F94 /* preferences.h */,
+				702B0DA0236FD720000C8F94 /* tree.h */,
+				702B0DA1236FD720000C8F94 /* threads.h */,
+				702B0DA2236FD720000C8F94 /* symbols.cxx */,
+				702B0DA3236FD720000C8F94 /* label.cxx */,
+				702B0DA4236FD720000C8F94 /* pixmaps */,
+				702B0DC9236FD721000C8F94 /* mandelbrot.cxx */,
+				702B0DCA236FD721000C8F94 /* windowfocus.cxx */,
+				702B0DCB236FD721000C8F94 /* valuators.fl */,
+				702B0DCC236FD721000C8F94 /* tabs.fl */,
+				702B0DCD236FD721000C8F94 /* CubeView.h */,
+				702B0DCE236FD721000C8F94 /* mandelbrot_ui.cxx */,
+				702B0DCF236FD721000C8F94 /* mandelbrot.h */,
+				702B0DD0236FD721000C8F94 /* boxtype.cxx */,
+				702B0DD1236FD721000C8F94 /* pixmap.cxx */,
+				702B0DD2236FD721000C8F94 /* unittest_images.cxx */,
+				702B0DD3236FD721000C8F94 /* resize.h */,
+				702B0DD4236FD721000C8F94 /* output.cxx */,
+				702B0DD5236FD721000C8F94 /* file_chooser.cxx */,
+				702B0DD6236FD721000C8F94 /* hello.cxx */,
+				702B0DD7236FD721000C8F94 /* tree.cxx */,
+				702B0DD8236FD721000C8F94 /* sudokurc.h */,
+				702B0DD9236FD721000C8F94 /* offscreen.cxx */,
+				702B0DDA236FD721000C8F94 /* CubeMain.cxx */,
+				702B0DDB236FD721000C8F94 /* device.cxx */,
+				702B0DDC236FD721000C8F94 /* twowin.cxx */,
+				702B0DDD236FD721000C8F94 /* clock.cxx */,
+				702B0DDE236FD721000C8F94 /* pack.cxx */,
+				702B0DDF236FD721000C8F94 /* tabs.h */,
+				702B0DE0236FD721000C8F94 /* radio.h */,
+				702B0DE1236FD721000C8F94 /* keyboard.h */,
+				702B0DE2236FD721000C8F94 /* unittest_scrollbarsize.cxx */,
+				702B0DE3236FD721000C8F94 /* iconize.cxx */,
+				702B0DE4236FD721000C8F94 /* menubar.cxx */,
+				702B0DE5236FD721000C8F94 /* buttons.cxx */,
+				702B0DE6236FD721000C8F94 /* keyboard_ui.h */,
+				702B0DE7236FD721000C8F94 /* unittest_symbol.cxx */,
+				702B0DE8236FD721000C8F94 /* help.cxx */,
+				702B0DE9236FD721000C8F94 /* fonts.cxx */,
+				702B0DEA236FD721000C8F94 /* checkers.cxx */,
+				702B0DEB236FD721000C8F94 /* scroll.cxx */,
+				702B0DEC236FD721000C8F94 /* preferences.cxx */,
+				702B0DED236FD721000C8F94 /* table.cxx */,
+				702B0DEE236FD721000C8F94 /* bitmap.cxx */,
+				702B0DEF236FD721000C8F94 /* message.cxx */,
+				702B0DF0236FD721000C8F94 /* curve.cxx */,
+				702B0DF1236FD721000C8F94 /* CubeViewUI.cxx */,
+				702B0DF2236FD721000C8F94 /* resize.fl */,
+				702B0DF3236FD721000C8F94 /* navigation.cxx */,
+				702B0DF4236FD721000C8F94 /* forms.cxx */,
+				702B0DF5236FD721000C8F94 /* gl_overlay.cxx */,
+				702B0DF6236FD721000C8F94 /* image.cxx */,
+				702B0DF7236FD721000C8F94 /* unittest_points.cxx */,
+				702B0DF8236FD721000C8F94 /* unittest_about.cxx */,
+				702B0DF9236FD721000C8F94 /* native-filechooser.cxx */,
+				702B0DFA236FD721000C8F94 /* keyboard_ui.fl */,
+				702B0DFB236FD721000C8F94 /* fast_slow.cxx */,
+				702B0DFC236FD721000C8F94 /* button.cxx */,
+				702B0DFD236FD721000C8F94 /* mandelbrot_ui.fl */,
+				702B0DFE236FD721000C8F94 /* input.cxx */,
+				702B0DFF236FD721000C8F94 /* overlay.cxx */,
+				702B0E00236FD721000C8F94 /* fast_slow.fl */,
+				702B0E01236FD721000C8F94 /* inactive.fl */,
+				702B0E02236FD721000C8F94 /* fracviewer.h */,
+				702B0E03236FD721000C8F94 /* resize.cxx */,
+				702B0E04236FD721000C8F94 /* browser.cxx */,
+				702B0E05236FD721000C8F94 /* mandelbrot_ui.h */,
+				702B0E06236FD721000C8F94 /* inactive.cxx */,
+				702B0E07236FD721000C8F94 /* inactive.h */,
+				702B0E08236FD721000C8F94 /* arc.cxx */,
+				702B0E09236FD721000C8F94 /* keyboard_ui.cxx */,
+				702B0E0A236FD721000C8F94 /* minimum.cxx */,
+				702B0E0B236FD721000C8F94 /* color_chooser.cxx */,
+				702B0E0C236FD721000C8F94 /* radio.fl */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		702B0DA4236FD720000C8F94 /* pixmaps */ = {
+			isa = PBXGroup;
+			children = (
+				702B0DA5236FD720000C8F94 /* white_1.xbm */,
+				702B0DA6236FD720000C8F94 /* white_2.xbm */,
+				702B0DA7236FD720000C8F94 /* white_3.xbm */,
+				702B0DA8236FD720000C8F94 /* white_4.xbm */,
+				702B0DA9236FD720000C8F94 /* green.xpm */,
+				702B0DAA236FD720000C8F94 /* porsche1.xpm */,
+				702B0DAB236FD720000C8F94 /* magenta.xpm */,
+				702B0DAC236FD720000C8F94 /* yellow_bomb.xpm */,
+				702B0DAD236FD720000C8F94 /* cyan_bomb.xpm */,
+				702B0DAE236FD720000C8F94 /* red.xpm */,
+				702B0DAF236FD720000C8F94 /* cyan.xpm */,
+				702B0DB0236FD720000C8F94 /* porsche.xpm */,
+				702B0DB1236FD720000C8F94 /* blue_bomb.xpm */,
+				702B0DB2236FD721000C8F94 /* whiteking_4.xbm */,
+				702B0DB3236FD721000C8F94 /* gray.xpm */,
+				702B0DB4236FD721000C8F94 /* blackking_3.xbm */,
+				702B0DB5236FD721000C8F94 /* gray_bomb.xpm */,
+				702B0DB6236FD721000C8F94 /* blackking_2.xbm */,
+				702B0DB7236FD721000C8F94 /* black_4.xbm */,
+				702B0DB8236FD721000C8F94 /* green_bomb.xpm */,
+				702B0DB9236FD721000C8F94 /* sudoku.xbm */,
+				702B0DBA236FD721000C8F94 /* blackking_1.xbm */,
+				702B0DBB236FD721000C8F94 /* whiteking_2.xbm */,
+				702B0DBC236FD721000C8F94 /* black_3.xbm */,
+				702B0DBD236FD721000C8F94 /* red_bomb.xpm */,
+				702B0DBE236FD721000C8F94 /* blast.xpm */,
+				702B0DBF236FD721000C8F94 /* black_2.xbm */,
+				702B0DC0236FD721000C8F94 /* blackking_4.xbm */,
+				702B0DC1236FD721000C8F94 /* whiteking_3.xbm */,
+				702B0DC2236FD721000C8F94 /* whiteking_1.xbm */,
+				702B0DC3236FD721000C8F94 /* black_1.xbm */,
+				702B0DC4236FD721000C8F94 /* tile.xpm */,
+				702B0DC5236FD721000C8F94 /* magenta_bomb.xpm */,
+				702B0DC6236FD721000C8F94 /* yellow.xpm */,
+				702B0DC7236FD721000C8F94 /* srs.xbm */,
+				702B0DC8236FD721000C8F94 /* blue.xpm */,
+			);
+			path = pixmaps;
+			sourceTree = "<group>";
+		};
+		702B0E0D236FD753000C8F94 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				702B0E0E236FD753000C8F94 /* libfltk.a */,
+				702B0E0F236FD753000C8F94 /* libfltk_gl.a */,
+				702B0E10236FD753000C8F94 /* libfltk_images.1.3.dylib */,
+				702B0E11236FD753000C8F94 /* libfltk_gl.dylib */,
+				702B0E12236FD753000C8F94 /* libfltk_forms.1.3.dylib */,
+				702B0E13236FD753000C8F94 /* libfltk_images.a */,
+				702B0E14236FD753000C8F94 /* libfltk.dylib */,
+				702B0E15236FD753000C8F94 /* libfltk_forms.dylib */,
+				702B0E16236FD753000C8F94 /* libfltk.1.3.dylib */,
+				702B0E17236FD753000C8F94 /* libfltk_gl.1.3.dylib */,
+				702B0E18236FD753000C8F94 /* libfltk_forms.a */,
+				702B0E19236FD753000C8F94 /* libfltk_images.dylib */,
+			);
+			name = lib;
+			path = ../../../../../../../usr/local/Cellar/fltk/1.3.5/lib;
+			sourceTree = "<group>";
+		};
 		706A608923675D1200490B6A = {
 			isa = PBXGroup;
 			children = (
@@ -532,7 +1213,6 @@
 		706A609423675D1200490B6A /* FLTK Test */ = {
 			isa = PBXGroup;
 			children = (
-				706A62032367601600490B6A /* FL */,
 				706A609523675D1200490B6A /* main.cpp */,
 			);
 			path = "FLTK Test";
@@ -541,6 +1221,8 @@
 		706A609C23675EEE00490B6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				702B0E0D236FD753000C8F94 /* lib */,
+				702B0CB3236FD720000C8F94 /* fltk */,
 				706A62022367601600490B6A /* include */,
 				706A609D23675EEE00490B6A /* 1.3.5 */,
 			);
@@ -1009,158 +1691,6 @@
 			children = (
 			);
 			path = include;
-			sourceTree = "<group>";
-		};
-		706A62032367601600490B6A /* FL */ = {
-			isa = PBXGroup;
-			children = (
-				706A62042367601600490B6A /* glut.H */,
-				706A62052367601600490B6A /* Fl_PNM_Image.H */,
-				706A62062367601600490B6A /* Fl_Radio_Button.H */,
-				706A62072367601600490B6A /* Fl_Toggle_Round_Button.H */,
-				706A62082367601600490B6A /* Fl_Text_Buffer.H */,
-				706A62092367601600490B6A /* fl_types.h */,
-				706A620A2367601600490B6A /* Fl_Printer.H */,
-				706A620B2367601600490B6A /* fl_utf8.h */,
-				706A620C2367601600490B6A /* fl_draw.H */,
-				706A620D2367601600490B6A /* Fl_Toggle_Light_Button.H */,
-				706A620E2367601600490B6A /* Fl_Color_Chooser.H */,
-				706A620F2367601600490B6A /* fl_show_colormap.H */,
-				706A62102367601600490B6A /* fl_show_input.H */,
-				706A62112367601600490B6A /* Fl_Single_Window.H */,
-				706A62122367601600490B6A /* Fl_Shared_Image.H */,
-				706A62132367601600490B6A /* Fl_Input.H */,
-				706A62142367601600490B6A /* Fl_Export.H */,
-				706A62152367601600490B6A /* Fl_Round_Clock.H */,
-				706A62162367601600490B6A /* Fl_Tree_Item.H */,
-				706A62172367601600490B6A /* gl_draw.H */,
-				706A62182367601600490B6A /* Fl_Plugin.H */,
-				706A62192367601600490B6A /* Fl_Fill_Slider.H */,
-				706A621A2367601600490B6A /* Fl_Device.H */,
-				706A621B2367601600490B6A /* Fl_Image_Surface.H */,
-				706A621C2367601600490B6A /* Fl_Menu_.H */,
-				706A621D2367601600490B6A /* Fl_Value_Input.H */,
-				706A621E2367601600490B6A /* Fl_Positioner.H */,
-				706A621F2367601600490B6A /* Fl_Roller.H */,
-				706A62202367601600490B6A /* Fl_Counter.H */,
-				706A62212367601600490B6A /* Fl_Multi_Label.H */,
-				706A62222367601600490B6A /* Fl_Scroll.H */,
-				706A62232367601600490B6A /* Fl_Hor_Fill_Slider.H */,
-				706A62242367601600490B6A /* Fl_Hor_Value_Slider.H */,
-				706A62252367601600490B6A /* abi-version.h */,
-				706A62262367601600490B6A /* Fl_Gl_Window.H */,
-				706A62272367601600490B6A /* Fl_Multiline_Output.H */,
-				706A62282367601600490B6A /* Fl_Input_.H */,
-				706A62292367601600490B6A /* Fl_Widget.H */,
-				706A622A2367601600490B6A /* Fl_PNG_Image.H */,
-				706A622B2367601600490B6A /* Fl_Float_Input.H */,
-				706A622C2367601600490B6A /* Fl_File_Chooser.H */,
-				706A622D2367601600490B6A /* Fl_Double_Window.H */,
-				706A622E2367601600490B6A /* Fl_Input_Choice.H */,
-				706A622F2367601600490B6A /* Fl_Native_File_Chooser.H */,
-				706A62302367601600490B6A /* Fl_Int_Input.H */,
-				706A62312367601600490B6A /* Fl_Sys_Menu_Bar.H */,
-				706A62322367601600490B6A /* Fl_Menu.H */,
-				706A62332367601600490B6A /* Fl_Help_Dialog.H */,
-				706A62342367601600490B6A /* Fl_Choice.H */,
-				706A62352367601600490B6A /* Fl_Menu_Bar.H */,
-				706A62362367601600490B6A /* Fl_Select_Browser.H */,
-				706A62372367601600490B6A /* Fl_Multi_Browser.H */,
-				706A62382367601600490B6A /* dirent.h */,
-				706A62392367601600490B6A /* Fl_Menu_Window.H */,
-				706A623A2367601600490B6A /* fl_message.H */,
-				706A623B2367601600490B6A /* Fl_Window.H */,
-				706A623C2367601600490B6A /* Fl_JPEG_Image.H */,
-				706A623D2367601600490B6A /* Fl_Cairo.H */,
-				706A623E2367601600490B6A /* Fl_Fill_Dial.H */,
-				706A623F2367601600490B6A /* Fl_Preferences.H */,
-				706A62402367601600490B6A /* Fl_File_Browser.H */,
-				706A62412367601600490B6A /* Fl_Box.H */,
-				706A62422367601600490B6A /* Fl_Output.H */,
-				706A62432367601600490B6A /* Fl_Multiline_Input.H */,
-				706A62442367601600490B6A /* Fl_Hor_Slider.H */,
-				706A62452367601600490B6A /* Fl_Chart.H */,
-				706A62462367601600490B6A /* Fl_Tabs.H */,
-				706A62472367601600490B6A /* win32.H */,
-				706A62482367601600490B6A /* Fl_Repeat_Button.H */,
-				706A62492367601600490B6A /* Enumerations.H */,
-				706A624A2367601600490B6A /* Fl_Value_Slider.H */,
-				706A624B2367601600490B6A /* Fl_XBM_Image.H */,
-				706A624C2367601600490B6A /* Fl_Tree.H */,
-				706A624D2367601600490B6A /* Fl_Copy_Surface.H */,
-				706A624E2367601600490B6A /* Fl_Dial.H */,
-				706A624F2367601600490B6A /* Fl_Browser.H */,
-				706A62502367601600490B6A /* Fl_Text_Editor.H */,
-				706A62512367601600490B6A /* Fl_Table.H */,
-				706A62522367601600490B6A /* glu.h */,
-				706A62532367601600490B6A /* Fl_Overlay_Window.H */,
-				706A62542367601600490B6A /* Fl.H */,
-				706A62552367601600490B6A /* Fl_Valuator.H */,
-				706A62562367601600490B6A /* Fl_Line_Dial.H */,
-				706A62572367601600490B6A /* Fl_Spinner.H */,
-				706A62582367601600490B6A /* Fl_Slider.H */,
-				706A62592367601600490B6A /* Fl_GIF_Image.H */,
-				706A625A2367601600490B6A /* Fl_Scrollbar.H */,
-				706A625B2367601600490B6A /* fl_ask.H */,
-				706A625C2367601600490B6A /* Fl_RGB_Image.H */,
-				706A625D2367601600490B6A /* Fl_PostScript.H */,
-				706A625E2367601600490B6A /* Fl_FormsBitmap.H */,
-				706A625F2367601600490B6A /* Fl_Adjuster.H */,
-				706A62602367601600490B6A /* names.h */,
-				706A62612367601600490B6A /* Fl_Value_Output.H */,
-				706A62622367601600490B6A /* Fl_Table_Row.H */,
-				706A62632367601600490B6A /* Fl_Pixmap.H */,
-				706A62642367601600490B6A /* Fl_Wizard.H */,
-				706A62652367601600490B6A /* Fl_Hor_Nice_Slider.H */,
-				706A62662367601600490B6A /* Fl_Button.H */,
-				706A62672367601600490B6A /* Fl_Menu_Button.H */,
-				706A62682367601600490B6A /* Fl_Cairo_Window.H */,
-				706A62692367601600490B6A /* Fl_Group.H */,
-				706A626A2367601600490B6A /* Fl_Timer.H */,
-				706A626B2367601600490B6A /* Fl_File_Icon.H */,
-				706A626C2367601600490B6A /* Fl_Nice_Slider.H */,
-				706A626D2367601600490B6A /* Fl_File_Input.H */,
-				706A626E2367601600490B6A /* Fl_Help_View.H */,
-				706A626F2367601600490B6A /* Fl_Object.H */,
-				706A62702367601600490B6A /* gl.h */,
-				706A62712367601600490B6A /* Fl_Check_Button.H */,
-				706A62722367601600490B6A /* math.h */,
-				706A62732367601600490B6A /* gl2opengl.h */,
-				706A62742367601600490B6A /* Fl_Paged_Device.H */,
-				706A62752367601600490B6A /* Fl_Tree_Item_Array.H */,
-				706A62762367601600490B6A /* Fl_Browser_.H */,
-				706A62772367601600490B6A /* Fl_Return_Button.H */,
-				706A62782367601600490B6A /* Fl_Round_Button.H */,
-				706A62792367601600490B6A /* Fl_XPM_Image.H */,
-				706A627A2367601600490B6A /* Fl_Secret_Input.H */,
-				706A627B2367601600490B6A /* Fl_Check_Browser.H */,
-				706A627C2367601600490B6A /* Fl_Hold_Browser.H */,
-				706A627D2367601600490B6A /* Fl_Light_Button.H */,
-				706A627E2367601600490B6A /* Fl_Toggle_Button.H */,
-				706A627F2367601600490B6A /* Fl_Tile.H */,
-				706A62802367601600490B6A /* Fl_FormsPixmap.H */,
-				706A62812367601600490B6A /* forms.H */,
-				706A62822367601600490B6A /* mac.H */,
-				706A62832367601600490B6A /* Fl_Image.H */,
-				706A62842367601600490B6A /* Fl_Clock.H */,
-				706A62852367601600490B6A /* Fl_Bitmap.H */,
-				706A62862367601600490B6A /* filename.H */,
-				706A62872367601600490B6A /* Fl_Progress.H */,
-				706A62882367601600490B6A /* Fl_Tooltip.H */,
-				706A62892367601600490B6A /* Fl_Simple_Counter.H */,
-				706A628A2367601600490B6A /* Fl_Text_Display.H */,
-				706A628B2367601600490B6A /* Fl_Free.H */,
-				706A628C2367601600490B6A /* Fl_Radio_Round_Button.H */,
-				706A628D2367601600490B6A /* x.H */,
-				706A628E2367601600490B6A /* platform.H */,
-				706A628F2367601600490B6A /* Fl_Tree_Prefs.H */,
-				706A62902367601600490B6A /* Fl_Menu_Item.H */,
-				706A62912367601600490B6A /* Fl_BMP_Image.H */,
-				706A62922367601600490B6A /* Fl_Tiled_Image.H */,
-				706A62932367601600490B6A /* Fl_Pack.H */,
-				706A62942367601600490B6A /* Fl_Radio_Light_Button.H */,
-			);
-			path = FL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
