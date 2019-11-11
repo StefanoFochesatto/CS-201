@@ -32,9 +32,9 @@ int main(int argc, const char * argv[])
         
         //Setting range
         int first = 2;
-        int last =25;
+        int last =15;
         std::seed_seq seed2{r(), r(), r(), r(), r(), r(), r(), r()};
-        std::mt19937 e2(seed2);
+        std::mt19937 e2(seed2
         
     
     //histogram for normal distribution given range
