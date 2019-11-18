@@ -50,9 +50,7 @@ int main()
     *ip = 16;
     
     
-    
-    int * i;
-       
+
 
     // *** HERE, ADD CODE THAT USES ip to modify variables ss and tt
 
@@ -71,9 +69,11 @@ int main()
     
     
     
+    ip = nullptr;
+    
     cout << "AFTER CALLING changeInt to null" << endl;
     cout << "Value of null: ";
-    changeInt(i);
+    changeInt(ip);
     cout << endl;
     
     
