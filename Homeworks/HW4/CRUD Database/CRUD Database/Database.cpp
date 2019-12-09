@@ -8,7 +8,31 @@
 
 #include "Database.hpp"
 
+
+//Cool formatting library pulled from github all credit for this goes to "https://github.com/haarcuba/cpp-text-table/blob/master/TextTable.h"
+#include "TextTable.h"
+
+
+
+bool getInt(int & num)
+{
+    std::string input;
+
+    getline(std::cin, input);
+    std::istringstream instream(input);
+    instream >> num;
+
+    if (instream)
+        return true;
+    else
+        return false;
+}
+
+
 std::map<std::string, Database_record> Database_student;
+
+
+
 bool CreateRecord(const std::string &key){
     auto it = Database_student.find(key);
     if (it == Database_student.end()){
@@ -78,19 +102,53 @@ bool InputRecord(Database_record &record){
 
 
 void PrintRecord(const std::string &key){
-    std::cout << "Name" <<std::setw(26)<<"AssignmentScores"<<std::setw(26)<<"FinalGrade"<<std::setw(26)<<"Pass/Fail"<<std::endl;
-    for(auto const& pair: Database_student){
-         const char separator    = ' ';
-        std::cout<< std::left <<std::setw(6)<<std::setfill(separator)<<pair.first;
-        for (auto const& i: pair.second.assignment_Scores){
-            std::cout<<std::right <<std::setw(8)<<std::setfill(separator)<< i<< std::endl;
+   auto it = Database_student.find(key);
+      if (it != Database_student.end()){
+    
+    TextTable t( '-', '|', '+' );
+    t.add( "Name" );
+  //  t.add( "Assignment Scores" );
+    t.add( "Final Grade" );
+    t.add( "Pass/Fail" );
+    t.endOfRow();
+    
+    for(const auto & p : Database_student){
+            if (p.first == key){
+                t.add(p.first);
+                t.add(std::to_string(p.second.student_Final));
+                if (p.second.passFail){
+                t.add("Fail");
+                }
+                else{
+                t.add("Pass");
+                }
+                
+                
+            }
         }
-        std::cout<< std::setw(32)<<pair.second.student_Final<< std::endl;
-         
-                std::cout<< std::setw(32)<<pair.second.passFail<< std::endl;
-        
-        std::cout << std::endl;
-    }
+       t.endOfRow();
+     t.setAlignment( 4, TextTable::Alignment::RIGHT );
+       std::cout << t;
+      }
+    
+    
+    
+    
+    
+//    std::cout << "Name" <<std::setw(26)<<"AssignmentScores"<<std::setw(26)<<"FinalGrade"<<std::setw(26)<<"Pass/Fail"<<std::endl;
+////    for(const auto & p : Database_student){
+////        if (p.first == key){
+////            std::cout << p.first;
+////            for (const auto &i:p.second.assignment_Scores){
+////                std::cout<<i<<std::endl;
+////            }
+////            std::cout <<p.second.student_Final;
+////            std::cout <<p.second.passFail;
+////        }
+////    }
+    //                std::string s;
+    //                for (const auto &i:p.second.assignment_Scores){
+    //                    s+= std::to_string(i) + ", \n" ;
+    //                 }
+    //                t.add(s);
 }
-
-

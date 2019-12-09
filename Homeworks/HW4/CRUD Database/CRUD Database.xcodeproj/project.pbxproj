@@ -30,6 +30,7 @@
 		700AAF83239DBDD000897083 /* Database.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Database.cpp; sourceTree = "<group>"; };
 		700AAF84239DBDD000897083 /* Database.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Database.hpp; sourceTree = "<group>"; };
 		700AAF86239DBDE900897083 /* CRUD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CRUD.cpp; sourceTree = "<group>"; };
+		700AAF88239E236600897083 /* TextTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextTable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 				700AAF7C239DBD7900897083 /* main.cpp */,
 				700AAF83239DBDD000897083 /* Database.cpp */,
 				700AAF84239DBDD000897083 /* Database.hpp */,
+				700AAF88239E236600897083 /* TextTable.h */,
 				700AAF86239DBDE900897083 /* CRUD.cpp */,
 			);
 			path = "CRUD Database";

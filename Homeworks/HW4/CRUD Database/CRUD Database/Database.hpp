@@ -15,13 +15,20 @@
 #include <iostream>
 #include <sstream>
 #include <iomanip>
+#include <random>
+#include <cmath>
+#include <vector>
+
+
+bool getInt(int & num);
 struct Database_record
 {
     std::string student_Name{"Student"};
-    double assignment_Scores[30] = {[0 ... 29] = 0};
+    std::vector<double> assignment_Scores{};
     double student_Final{0.0};
     bool passFail{false};
 };
+
 
 bool CreateRecord(const std::string &key);
 bool ReadRecord(const std::string &key, Database_record &record);
