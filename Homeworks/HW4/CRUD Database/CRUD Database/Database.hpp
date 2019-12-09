@@ -24,7 +24,7 @@ struct Database_record
 };
 
 bool CreateRecord(const std::string &key);
-bool ReadRecord(const std::string &key, const Database_record &record);
+bool ReadRecord(const std::string &key, Database_record &record);
 bool UpdateRecord(const std::string &key,const Database_record &record);
 bool DeleteRecord(const std::string &key);
 bool InputRecord(Database_record &record);

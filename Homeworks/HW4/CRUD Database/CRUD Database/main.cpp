@@ -11,8 +11,5 @@
 int main(int argc, const char * argv[]) {
 
     
-    CreateRecord("Sarah");
-    
-    PrintRecord("Sarah");
     return 0;
 }
