@@ -88,7 +88,7 @@ bool readFile1(const string & filename) {
                 string line;
                 getline(fin, line);
                 if(!isdigit(line[0])){
-                               cout << "Error This is a String: " << line << endl;}
+                               cout << line <<"  ::Error This is a String:: " << endl;}
                 else{
                  cout << line << endl;}
                 if(!fin){
